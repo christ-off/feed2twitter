@@ -1,6 +1,17 @@
 'use strict';
 
-module.exports.hello = async event => {
+module.exports.processatomfeed = async event => {
+
+  // STEP 1 : Read config and params
+
+  // STEP 2 : Parse feed
+
+  // STEP 3 : Choose
+
+  // STEP 4 : Log (number of entries + selected entry)
+
+  // STEP 5 : Post
+
   return {
     statusCode: 200,
     body: JSON.stringify(
