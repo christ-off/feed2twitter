@@ -1,7 +1,7 @@
 {
   "name": "feed2twitter",
   "version": "1.0.0",
-  "description": "A nodeJS Lambda to parse a feed and post a radndom entry to twitter",
+  "description": "A nodeJS Lambda to parse a feed and post a random entry to twitter",
   "scripts": {
     "test": "jest",
     "test-with-coverage": "jest --coverage"
