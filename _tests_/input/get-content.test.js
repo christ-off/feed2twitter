@@ -12,7 +12,7 @@ const EXPECTED_RESPONSE = "this is the expected response";
 describe('Testing getting feed with HTTP ', () => {
 
   beforeAll(() => {
-    dotenv.config();
+    dotenv.config({ path: '.envtest' });
   });
 
   test('Get should return the expected content', async () => {

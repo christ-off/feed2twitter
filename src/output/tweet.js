@@ -7,7 +7,7 @@ const twit = require('twit');
 /**
  * Init Twitter LIB
  */
-let t = new Twit({
+let t = new twit({
   consumer_key:process.env['CONSUMER_KEY'],
   consumer_secret:process.env['CONSUMER_SECRET'],
   access_token:process.env['ACCESS_TOKEN'],

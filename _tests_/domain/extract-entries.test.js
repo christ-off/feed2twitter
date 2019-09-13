@@ -9,7 +9,7 @@ const dotenv = require('dotenv');
 describe('Testing processing of feed', () => {
 
   beforeAll(() => {
-    dotenv.config();
+    dotenv.config({ path: '.envtest' });
   });
 
   test('Get should return empty array if no feed', () => {

@@ -6,6 +6,7 @@ const fs = require('fs');
 const twitter = require('../../src/output/tweet');
 jest.mock('../../src/output/tweet');
 
+
 const CURRENT_FEED_LENGTH = 33436;
 const FEED_FILE = '_tests_/feed.xml';
 const NO_NETRY_FEED_FILE = '_tests_/no_entry_feed.xml';
@@ -13,7 +14,7 @@ const NO_NETRY_FEED_FILE = '_tests_/no_entry_feed.xml';
 describe('Execute Lambda in Mock env', () => {
 
   beforeAll(() => {
-    dotenv.config();
+    dotenv.config({ path: '.envtest' });
   });
 
   beforeEach(() => {

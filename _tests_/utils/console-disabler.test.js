@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 describe('Test LOG console log', () => {
 
   beforeAll(() => {
-    dotenv.config();
+    dotenv.config({ path: '.envtest' });
   });
 
   test('Console Log should be disabled in tests', () => {
