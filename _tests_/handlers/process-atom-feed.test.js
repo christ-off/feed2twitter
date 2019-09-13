@@ -3,7 +3,7 @@ const tested = require('../../src/handlers/process-atom-feed');
 const dotenv = require('dotenv');
 const nock = require('nock');
 const fs = require('fs');
-const twitter = require('../../src/output/tweet');
+let twitter = require('../../src/output/tweet');
 jest.mock('../../src/output/tweet');
 
 
@@ -15,6 +15,7 @@ describe('Execute Lambda in Mock env', () => {
 
   beforeAll(() => {
     dotenv.config({ path: '.envtest' });
+    twitter.config();
   });
 
   beforeEach(() => {
