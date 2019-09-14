@@ -35,10 +35,11 @@ exports.extractStatus = (entry) => {
     let writer = entry.category[0].$.term;
     let titleWithoutTags = PREFIX + title + SEPARATOR + writer;
     let tags = extractTags(entry.category);
+    let link = entry.link[0].$.href;
     if (tags == null || (titleWithoutTags + tags).length > LIMIT){
-      return titleWithoutTags;
+      return titleWithoutTags + ' ' + link;
     } else {
-      return titleWithoutTags + tags;
+      return titleWithoutTags + tags + ' ' + link;
     }
   } else {
     console.warn('Null entry. Returning null');

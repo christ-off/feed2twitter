@@ -3,6 +3,7 @@
 // http module doesn't provide async/promise
 const disabler = require('../utils/console-disabler');
 const twit = require('twit');
+const transformer = require('../domain/transform-entry');
 
 /**
  * The twitter lib initialized
@@ -26,13 +27,24 @@ exports.tweet = async (entry) => {
         throw new Exception('Error twit lib should have been initialized');
     }
     if (disabler.isConsoleLogEnabled()) {
-        console.log(`Going to tweet : ${entry}`);
+        console.log(`Going to tweet : ${JSON.stringify(entry)}`);
+    }
+    let status = transformer.extractStatus(entry);
+    let params = {
+        status: status
+    };
+    if (disabler.isConsoleLogEnabled()) {
+        console.log(`Going to tweet : ${JSON.stringify(params)}`);
     }
     return new Promise(function (resolve, reject) {
-        t.post('statuses/update', {status: 'hello world!'}, function (error, result) {
+        t.post('statuses/update', params, function (error, result) {
             if (error) {
+                console.error(`Error while sending tweet`, error);
                 reject(error);
             } else {
+                if (disabler.isConsoleLogEnabled()) {
+                    console.log(`Tweet sent: ${JSON.stringify(result)}`);
+                }
                 resolve(result);
             }
         })
