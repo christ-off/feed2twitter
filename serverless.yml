@@ -40,4 +40,4 @@ functions:
     description: On schedule will process feed
     timeout: 120 # sec
     events:
-      - cron(11 11 * * ? *) # mn 11, hour 11, any day of month, whatever the day, any year)
+      - schedule: cron(11 11 * * ? *) # mn 11, hour 11, any day of month, whatever the day, any year)
