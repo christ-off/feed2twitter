@@ -8,3 +8,4 @@ jspm_packages
 
 # Credentials
 .env
+config.json

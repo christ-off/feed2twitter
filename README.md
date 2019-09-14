@@ -12,3 +12,14 @@ A nodeJS Lambda to parse a feed and post a random entry to twitter
 6. Transform know writer into their twitter account (DynamoDB table for mapping ?)
 7. Get editor and post using their twitter handler
 8. Random text before tweet 
+
+## Install
+
+# Create a config.json file
+
+{
+  "CONSUMER_KEY": "...",
+  "CONSUMER_SECRET": "...",
+  "ACCESS_TOKEN": "..",
+  "ACCESS_TOKEN_SECRET": "..."
+}

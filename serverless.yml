@@ -62,7 +62,8 @@ functions:
     timeout: 120 # sec
     events:
       - cron(11 11 * * ? *) # mn 11, hour 11, any day of month, whatever the day, any year)
-
-#    Define function environment variables here
-#    environment:
-#      variable2: value2
+    environment:
+      CONSUMER_KEY: ${file(../config.json):CONSUMER_KEY}
+      CONSUMER_SECRET: ${file(../config..json):CONSUMER_SECRET}
+      ACCESS_TOKEN: ${file(../config..json):ACCESS_TOKEN}
+      ACCESS_TOKEN_SECRET: ${file(../config..json):ACCESS_TOKEN_SECRET}
