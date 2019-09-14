@@ -22,48 +22,22 @@ org: christoff
 provider:
   name: aws
   runtime: nodejs10.x
-  profile:feed2twitter
-  region: eu-west-3
+  region: eu-central-1
   memorySize: 128
   # Let's start with 128 (the minimum)
 
   environment:
-
-# you can add statements to the Lambda function's IAM Role here
-#  iamRoleStatements:
-#    - Effect: "Allow"
-#      Action:
-#        - "s3:ListBucket"
-#      Resource: { "Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "ServerlessDeploymentBucket" } ] ]  }
-#    - Effect: "Allow"
-#      Action:
-#        - "s3:PutObject"
-#      Resource:
-#        Fn::Join:
-#          - ""
-#          - - "arn:aws:s3:::"
-#            - "Ref" : "ServerlessDeploymentBucket"
-#            - "/*"
-
-# you can add packaging information here
-#package:
-#  include:
-#    - include-me.js
-#    - include-me-dir/**
-#  exclude:
-#    - exclude-me.js
-#    - exclude-me-dir/**
+    FEED: https://post-tenebras-lire.net/feed.xml
+    CONSUMER_KEY: ${file(config.json):CONSUMER_KEY}
+    CONSUMER_SECRET: ${file(config.json):CONSUMER_SECRET}
+    ACCESS_TOKEN: ${file(config.json):ACCESS_TOKEN}
+    ACCESS_TOKEN_SECRET: ${file(config.json):ACCESS_TOKEN_SECRET}
 
 functions:
 
   processatomfeed:
-    handler: src/handlers/processatomfeed.processatomfeed
+    handler: src/handlers/process-atom-feed.processAtomFeed
     description: On schedule will process feed
     timeout: 120 # sec
     events:
       - cron(11 11 * * ? *) # mn 11, hour 11, any day of month, whatever the day, any year)
-    environment:
-      CONSUMER_KEY: ${file(../config.json):CONSUMER_KEY}
-      CONSUMER_SECRET: ${file(../config..json):CONSUMER_SECRET}
-      ACCESS_TOKEN: ${file(../config..json):ACCESS_TOKEN}
-      ACCESS_TOKEN_SECRET: ${file(../config..json):ACCESS_TOKEN_SECRET}

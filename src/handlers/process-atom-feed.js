@@ -6,7 +6,7 @@ const xml2js = require('xml2js');
 const extractor = require('../domain/extract-entries');
 const twitter = require('../output/tweet');
 
-module.exports.processAtomFeed = async event => {
+module.exports.processAtomFeed = async () => {
 
     // STEP 1 : Read config and params
     let feed = process.env['FEED'];
@@ -18,13 +18,12 @@ module.exports.processAtomFeed = async event => {
     let xml = await xml2js.parseStringPromise(feedContent);
     let entries = extractor.extractEntries(xml);
     // STEP 4 : Log (number of entries + selected entry)
-    if (entries == null || !Array.isArray(entries) || entries.length == 0){
+    if (entries == null || !Array.isArray(entries) || entries.length === 0){
         console.warn('No entries in feed. Aborting');
-        const response = {
+        return {
             statusCode: 400,
             body: 'Feed is empty or as no entry',
         };
-        return response;
     }
     if (disabler.isConsoleLogEnabled()) {
         console.log(`Got ${entries.length} entries`);
@@ -35,5 +34,6 @@ module.exports.processAtomFeed = async event => {
         console.log(`Entry of rank ${rank} choosen ${JSON.stringify(entries[rank])}`);
     }
     // STEP 5 : Post
+    twitter.config();
     return twitter.tweet(entries[rank]);
 };

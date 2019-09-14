@@ -18,7 +18,7 @@ function extractTags(categories) {
     return null;
   } else {
     let result = '';
-    for (var i = 1; i < categories.length; i++) {
+    for (let i = 1; i < categories.length; i++) {
       let categoryText = categories[i].$.term;
       result = result + ' ' + tagify(categoryText);
     }

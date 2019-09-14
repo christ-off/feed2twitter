@@ -28,12 +28,12 @@
     "dotenv": "^8.1.0",
     "fs": "0.0.1-security",
     "jest": "^24.9.0",
-    "nock": "^11.3.3",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "nock": "^11.3.3"
   },
   "dependencies": {
     "twit": "^2.2.11",
-    "xml2js": "^0.4.22"
+    "xml2js": "^0.4.22",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   }
 }

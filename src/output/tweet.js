@@ -20,11 +20,11 @@ exports.config = () => {
         timeout_ms: 60 * 1000,  // optional HTTP request timeout to apply to all requests.
         strictSSL: true,     // optional - requires SSL certificates to be valid.
     });
-}
+};
 
 exports.tweet = async (entry) => {
     if (t == null) {
-        throw new Exception('Error twit lib should have been initialized');
+        throw "Error twit lib should have been initialized";
     }
     if (disabler.isConsoleLogEnabled()) {
         console.log(`Going to tweet : ${JSON.stringify(entry)}`);
