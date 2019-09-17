@@ -6,10 +6,12 @@ const xml2js = require('xml2js');
 const extractor = require('../domain/extract-entries');
 const twitter = require('../output/tweet');
 
+const FEED_ENV = 'feed';
+
 module.exports.processAtomFeed = async () => {
 
     // STEP 1 : Read config and params
-    let feed = process.env['FEED'];
+    let feed = process.env[FEED_ENV];
     if (disabler.isConsoleLogEnabled()) {
         console.log(`Going to process ${feed}`);
     }

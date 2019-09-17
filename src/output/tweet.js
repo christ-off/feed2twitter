@@ -5,18 +5,22 @@ const disabler = require('../utils/console-disabler');
 const twit = require('twit');
 const transformer = require('../domain/transform-entry');
 
+const CONSUMER_KEY_ENV = 'consumer_key';
+const CONSUMER_SECRET_ENV = 'consumer_secret';
+const ACCESS_TOKEN_ENV = 'access_token';
+const ACCESS_TOKEN_SECRET = 'access_token_secret';
+
 /**
  * The twitter lib initialized
  * @type {null}
  */
 let t = null;
-
 exports.config = () => {
     t = new twit({
-        consumer_key: process.env['CONSUMER_KEY'],
-        consumer_secret: process.env['CONSUMER_SECRET'],
-        access_token: process.env['ACCESS_TOKEN'],
-        access_token_secret: process.env['ACCESS_TOKEN_SECRET'],
+        consumer_key: process.env[CONSUMER_KEY_ENV],
+        consumer_secret: process.env[CONSUMER_SECRET_ENV],
+        access_token: process.env[ACCESS_TOKEN_ENV],
+        access_token_secret: process.env[ACCESS_TOKEN_SECRET],
         timeout_ms: 60 * 1000,  // optional HTTP request timeout to apply to all requests.
         strictSSL: true,     // optional - requires SSL certificates to be valid.
     });

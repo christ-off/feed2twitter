@@ -19,10 +19,17 @@ private_key_path = "path_to_your_pem_file"
 
 Run commands from the terraform folder
 
-~/terraform workspace list
-~/terraform workspace new dev
-or 
-~/terraform workspace select dev
-~/terraform init -var-file='~/terraform.tfvars'
+### Workspace if necessary
+
+`terraform workspace list`    
+`terraform workspace new dev`  
+or   
+`terraform workspace select dev`
+
+### Work
+
+`terraform init`
+`terrafom apply -var-file='terraform.tfvars'` 
+
 ~/terraform plan -var-file='~/terraform.tfvars'
 ~/terraform apply -var-file='~/terraform.tfvars'

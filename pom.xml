@@ -33,7 +33,18 @@
                         </goals>
                         <phase>test</phase>
                         <configuration>
-                            <arguments>test</arguments>
+                            <arguments>install test</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Cleanup node_modules of dev dependencies AFTER test -->
+                        <id>npm prune</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <phase>prepare-package</phase>
+                        <configuration>
+                            <arguments>prune --production=true</arguments>
                         </configuration>
                     </execution>
                 </executions>

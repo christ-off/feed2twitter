@@ -28,7 +28,7 @@ provider:
 
   environment:
     FEED: https://post-tenebras-lire.net/feed.xml
-    CONSUMER_KEY: ${file(config.json):CONSUMER_KEY}
+    CONSUMER_KEY: ${var.}
     CONSUMER_SECRET: ${file(config.json):CONSUMER_SECRET}
     ACCESS_TOKEN: ${file(config.json):ACCESS_TOKEN}
     ACCESS_TOKEN_SECRET: ${file(config.json):ACCESS_TOKEN_SECRET}
