@@ -8,7 +8,8 @@ jspm_packages
 
 # Credentials
 .env
-config.json
+terraform/terraform.tfvars
 
 # Test coverage
 /coverage/
+/node/

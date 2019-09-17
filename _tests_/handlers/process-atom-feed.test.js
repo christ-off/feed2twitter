@@ -7,7 +7,7 @@ let twitter = require('../../src/output/tweet');
 jest.mock('../../src/output/tweet');
 
 const FEED_FILE = '_tests_/feed.xml';
-const NO_NETRY_FEED_FILE = '_tests_/no_entry_feed.xml';
+const NO_ENTRY_FEED_FILE = '_tests_/no_entry_feed.xml';
 
 describe('Execute Lambda in Mock env', () => {
 
@@ -22,7 +22,7 @@ describe('Execute Lambda in Mock env', () => {
   test('Get should abort on entry-less feed', async () => {
     expect.assertions(1);
     // GIVEN
-    let feedContent = fs.readFileSync(NO_NETRY_FEED_FILE);
+    let feedContent = fs.readFileSync(NO_ENTRY_FEED_FILE);
     nock("http://127.0.0.1:4000").get('/feed.xml').reply(200, feedContent);
     // WHEN
     let data = await tested.processAtomFeed();
