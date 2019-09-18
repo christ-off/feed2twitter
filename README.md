@@ -4,14 +4,16 @@ A nodeJS Lambda to parse a feed and post a random entry to twitter
 
 ## Steps
 
-1. MVP : Read feed (so last 10 posts) and posts random post to twitter
-2. Post with picture
-3. Save to dynamoDB (to add more history), Read from dynamoDB
-4. (optionnal) Add current blog history to DynamoDB
-5. Get writer (may need to add to feed before)
-6. Transform know writer into their twitter account (DynamoDB table for mapping ?)
-7. Get editor and post using their twitter handler
-8. Random text before tweet 
+1. ~~MVP : Read feed (so last 10 posts) and posts random post to twitter~~
+2. Add tags from post
+3. Post with picture 
+4. Save to dynamoDB (to add more history), Read from dynamoDB
+5. (optionnal) Add current blog history to DynamoDB
+6. ~~Get writer (may need to add to feed before)~~
+7. Transform know writer into their twitter account (DynamoDB table for mapping ?)
+8. Enrich feed from blog with editor info ?
+9. Get editor and post using their twitter handler
+10. Random text before tweet 
 
 ## Requirements
 
