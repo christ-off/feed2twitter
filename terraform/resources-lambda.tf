@@ -73,14 +73,31 @@ resource "aws_cloudwatch_log_group" "feed2twitter-log-group" {
 #  Events
 ############
 
-resource "aws_cloudwatch_event_rule" "every-day-11-11" {
-  name = "every-day-11-11"
-  description = "Trigger posting every day 11-11"
-  schedule_expression = "cron(11 11 * * ? *)"
+resource "aws_cloudwatch_event_rule" "every-day-09-11-GMT" {
+  name = "every-day-09-11-GMT"
+  description = "Trigger posting every day 09-11-GMT"
+  schedule_expression = "cron(11 09 * * ? *)"
   is_enabled = "true"
 }
 
 resource "aws_cloudwatch_event_target" "every-day-11-11-target" {
-  rule = "${aws_cloudwatch_event_rule.every-day-11-11.name}"
+  rule = "${aws_cloudwatch_event_rule.every-day-09-11-GMT.name}"
   arn = "${aws_lambda_function.feed2twitter-lambda.arn}"
+}
+
+# lambda permission ? Not IAM role ?
+# See https://stackoverflow.com/a/44313827/95040
+data "aws_caller_identity" "current-caller" {
+  # Retrieves information about the AWS account corresponding to the
+  # access key being used to run Terraform, which we need to populate
+  # the "source_account" on the permission resource.
+}
+
+resource "aws_lambda_permission" "allow-cloudwatch-feed2twitter-lambda" {
+  statement_id   = "AllowExecutionFromCloudWatch"
+  action         = "lambda:InvokeFunction"
+  function_name  = "${aws_lambda_function.feed2twitter-lambda.function_name}"
+  principal      = "events.amazonaws.com"
+  source_account = "${data.aws_caller_identity.current-caller.account_id}"
+  source_arn     = "${aws_cloudwatch_event_rule.every-day-09-11-GMT.arn}"
 }

@@ -13,13 +13,22 @@ A nodeJS Lambda to parse a feed and post a random entry to twitter
 7. Get editor and post using their twitter handler
 8. Random text before tweet 
 
-## Install
+## Requirements
 
-# Create a config.json file
+* Maven >3 [use SDKMan the super hero](https://sdkman.io/)
+* [Terraform.io](https://www.terraform.io/)
+* Node v10.16.3 use [Node Version Manager](https://github.com/nvm-sh/nvm)
+* AWS Credentials on appropriate user
+* Twitter Application credentials 
 
-{
-  "CONSUMER_KEY": "...",
-  "CONSUMER_SECRET": "...",
-  "ACCESS_TOKEN": "..",
-  "ACCESS_TOKEN_SECRET": "..."
-}
+## Configuration
+
+In terraform folder create a terraform.tfvars file 
+
+    aws_access_key = "..."  
+    aws_secret_key = "..."  
+    feed = "..."  
+    consumer_key = "..."  
+    consumer_secret = "..."  
+    access_token = "..."  
+    access_token_secret = "..."
