@@ -2,7 +2,8 @@
 
 // http module doesn't provide async/promise
 const twit = require('twit');
-const transformer = require('../domain/transform-entry');
+const extractor = require('../domain/extract-info');
+const builder = require('../domain/tweet-builder');
 
 const CONSUMER_KEY_ENV = 'consumer_key';
 const CONSUMER_SECRET_ENV = 'consumer_secret';
@@ -29,8 +30,9 @@ exports.tweet = async (entry) => {
     if (t == null) {
         throw "Error twit lib should have been initialized";
     }
-    console.log(`Going to tweet : ${JSON.stringify(entry)}`);
-    let status = transformer.extractStatus(entry);
+    let info = extractor.extractEntryInformation(entry);
+    console.log(`Going to tweet : ${JSON.stringify(info)}`);
+    let status = builder.extractStatus(info);
     let params = {
         status: status
     };

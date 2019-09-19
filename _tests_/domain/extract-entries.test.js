@@ -4,13 +4,8 @@
  */
 
 const tested = require('../../src/domain/extract-entries');
-const dotenv = require('dotenv');
 
 describe('Testing processing of feed', () => {
-
-  beforeAll(() => {
-    dotenv.config({ path: '.envtest' });
-  });
 
   test('Get should return empty array if no feed', () => {
     // GIVEN
