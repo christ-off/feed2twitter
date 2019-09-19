@@ -1,5 +1,4 @@
-LOG_DISABLED=true
-FEED=http://127.0.0.1:4000/feed.xml
+feed=http://127.0.0.1:4000/feed.xml
 # Twitter API
 consumer_key='FAKE_CONSUMER_KEY'
 consumer_secret='FAKE_CONSUMER_SECRET'
