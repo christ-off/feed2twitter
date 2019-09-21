@@ -24,7 +24,7 @@ resource "aws_lambda_function" "feed2twitter-function" {
   role = "${aws_iam_role.feed2twitter-role.arn}"
 
   timeout = "120"
-  memory_size = "128"
+  memory_size = "192"
 
   source_code_hash = "${filebase64sha256("../target/feed2twitter-lambda.zip")}"
 
