@@ -23,3 +23,26 @@ exports.getContent = async (host, path) => {
     }
 
 };
+
+/**
+ * See https://github.com/request/request#requestoptions-callback
+ * @param url of binary resource. No utf-8 or other encoding transformataion will be applied
+ * @return {Promise<Buffer>} yes a Buffer NOT a binary content
+ */
+exports.getBinaryContent = async (url) => {
+
+    const options = {
+        uri: url,
+        encoding: null
+    };
+    console.log(`Going to get : ${JSON.stringify(options)}`);
+    try {
+        let content = await rp(options);
+        console.log(`All data retrieved ${content.length} bytes`);
+        return content;
+    } catch (e) {
+        console.error(`Unexpected http error ${e.message} for ${url}`);
+        return null;
+    }
+
+};

@@ -2,7 +2,8 @@
 
 const getter = require('../input/get-content');
 const xml2js = require('xml2js');
-const extractor = require('../domain/extract-entries');
+const entriesextractor = require('../domain/extract-entries');
+const infoextractor = require('../domain/extract-info');
 const twitter = require('../output/tweet');
 
 const FEED_ENV = 'feed';
@@ -15,7 +16,7 @@ module.exports.processAtomFeed = async () => {
     // STEP 2 : Parse feed
     let feedContent = await getter.getContent(feed, null);
     let xml = await xml2js.parseStringPromise(feedContent);
-    let entries = extractor.extractEntries(xml);
+    let entries = entriesextractor.extractEntries(xml);
     // STEP 4 : Log (number of entries + selected entry)
     if (entries == null || !Array.isArray(entries) || entries.length === 0) {
         console.warn('No entries in feed. Aborting');
@@ -30,5 +31,10 @@ module.exports.processAtomFeed = async () => {
     console.log(`Entry of rank ${rank} choosen ${JSON.stringify(entries[rank])}`);
     // STEP 5 : Post
     twitter.config();
-    return twitter.tweet(entries[rank]);
+    let info = infoextractor.extractEntryInformation(entries[rank]);
+    if (!info) {
+        console.warn('Unable to extract info from entry. Aborting');
+        throw new Error(`Error extract info from ${JSON.stringify(entries[rank])}`);
+    }
+    return twitter.post(info);
 };

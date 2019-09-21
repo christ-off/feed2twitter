@@ -35,7 +35,7 @@ describe('Execute Lambda in Mock env', () => {
     // GIVEN
     let feedContent = fs.readFileSync(FEED_FILE);
     nock("http://127.0.0.1:4000").get('/feed.xml').reply(200, feedContent);
-    twitter.tweet = jest.fn().mockImplementation(() => { return 'COUCOU' } );
+    twitter.post = jest.fn().mockImplementation(() => { return 'COUCOU' } );
     // WHEN
     let data = await tested.processAtomFeed();
     // THEN

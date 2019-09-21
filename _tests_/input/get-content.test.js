@@ -5,17 +5,13 @@
 
 const tested = require('../../src/input/get-content');
 const nock = require('nock');
-const dotenv = require('dotenv');
+const fs = require('fs');
 
 const EXPECTED_RESPONSE = "this is the expected response";
 
 describe('Testing getting feed with HTTP ', () => {
 
-  beforeAll(() => {
-    dotenv.config({ path: '.envtest' });
-  });
-
-  test('Get should return the expected content', async () => {
+  test('Get should return the expected text content', async () => {
     expect.assertions(2);
     // GIVEN
     nock("http://perdu.com").get('/').reply(200, EXPECTED_RESPONSE);
@@ -24,6 +20,18 @@ describe('Testing getting feed with HTTP ', () => {
     // THEN
     expect(data).toBeDefined();
     expect(data).toBe(EXPECTED_RESPONSE);
+  });
+
+  test('Get should return the expected Buffer for binary', async () => {
+    expect.assertions(2);
+    // GIVEN
+    let imageContent = fs.readFileSync('_tests_/test_image.jpg');
+    nock("http://perdu.com").get('/').reply(200, imageContent);
+    // WHEN
+    let data = await tested.getBinaryContent("http://perdu.com", "/");
+    // THEN
+    expect(data).toBeDefined();
+    expect(data instanceof Buffer).toBeTruthy();
   });
 
   test('should return null on not found request', async () => {
