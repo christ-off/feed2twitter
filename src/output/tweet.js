@@ -72,7 +72,7 @@ async function tweet(info, media_id_string) {
         throw "Error twit lib should have been initialized";
     }
     console.log(`Going to tweet : ${JSON.stringify(info)}`);
-    let status = builder.extractStatus(info);
+    let status = await builder.extractStatus(info);
     let params = null;
     if (media_id_string == null) {
         params = {

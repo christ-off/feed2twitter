@@ -1,7 +1,4 @@
-/**
- * Http mocking done thanks to :
- * https://scotch.io/tutorials/nodejs-tests-mocking-http-requests
- */
+'use strict';
 
 const tested = require('../../src/domain/extract-entries');
 

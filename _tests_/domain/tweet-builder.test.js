@@ -1,9 +1,8 @@
-/**
- * Http mocking done thanks to :
- * https://scotch.io/tutorials/nodejs-tests-mocking-http-requests
- */
+'use strict';
 
 const tested = require('../../src/domain/tweet-builder');
+const mockedTwitterAuthor = require('../../src/domain/get-author-twitter-handle');
+jest.mock('../../src/domain/get-author-twitter-handle');
 
 const INFO = {
     id: 'https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne',
@@ -16,14 +15,18 @@ const INFO = {
 
 describe('Test building tweet properties', () => {
 
-    test('Should extract expected status', () => {
+    test('Should extract expected status', async () => {
+        expect.assertions(4);
         // GIVEN
-        const EXPECTED_STATUS = 'Ancien avis de #Lecture : Hérésie minérale - Desienne, Stéphane #Nouvelle #ScienceFiction #Religion https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne/';
+        const EXPECTED_STATUS = 'Ancien avis de #Lecture : Hérésie minérale - @DesienneAuteur #Nouvelle #ScienceFiction #Religion https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne/';
+        mockedTwitterAuthor.getAuthorTwitterHandle = jest.fn().mockImplementation(() => { return '@DesienneAuteur' } );
         // WHEN
-        let result = tested.extractStatus(INFO);
+        let result = await tested.extractStatus(INFO);
         // THEN
         expect(result).toBeDefined();
         expect(result).toEqual(EXPECTED_STATUS);
+        expect(mockedTwitterAuthor.getAuthorTwitterHandle.mock.calls.length).toBe(1);
+        expect(mockedTwitterAuthor.getAuthorTwitterHandle.mock.calls[0][0]).toBe('Desienne, Stéphane');
     });
 
 });
