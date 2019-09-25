@@ -49,9 +49,23 @@ resource "aws_iam_role" "feed2twitter-role" {
   assume_role_policy = "${file("./policies/feed2twitter-policy.json")}"
 }
 
-resource "aws_iam_role_policy_attachment" "feed2twitter_dynamodb_role-attachment" {
-role = "${aws_iam_role.feed2twitter-role.name}"
-policy_arn = "arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess"
+data "aws_iam_policy_document" "dynamodb-document" {
+  statement {
+    actions = ["dynamodb:*"]
+    resources = ["*"]
+    effect = "Allow"
+  }
+}
+
+resource "aws_iam_policy" "dynamodb-policy" {
+  name = "dynamodb_read-policy"
+  path = "/"
+  policy = "${data.aws_iam_policy_document.dynamodb-document.json}"
+}
+
+resource "aws_iam_role_policy_attachment" "feed2twitter_dynamodb_policy-attachment" {
+  role       = "${aws_iam_role.feed2twitter-role.name}"
+  policy_arn = "${aws_iam_policy.dynamodb-policy.arn}"
 }
 
 resource "aws_iam_role_policy_attachment" "feed2twitter_cloudwatch_role-attachment" {
