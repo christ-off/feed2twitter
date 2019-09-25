@@ -9,19 +9,23 @@ const aws = require('../providers/aws');
  */
 exports.getAuthorTwitterHandle = async (authorname) => {
     var params = {
-        ExpressionAttributeValues: {
-            ":v1": {
-                S: authorname
-            }
-        },
         KeyConditionExpression: "Author = :v1",
+        ExpressionAttributeValues: {
+            ":v1": { "S": authorname }
+            },
         ProjectionExpression: "twitterHandle",
         TableName: "Authors"
     };
+    console.log(`Going to query ${JSON.stringify(params)}`);
     let result = await aws.queryPromise(params);
     if (result) {
-        console.log(`Twitter handle ${result} found for ${authorname}`);
-        return result;
+        if (result.Count != 1){
+            console.warn(`Result replied not 1 result but ${result.count} for ${authorname}`);
+            return authorname;
+        } else {
+            console.log(`Twitter handle ${JSON.stringify(result)} found for ${authorname}`);
+            return result.Items[0].twitterHandle.S;
+        }
     } else {
         console.log('Twitter handle not found for ' + authorname);
         return authorname;

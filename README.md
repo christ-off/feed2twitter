@@ -34,3 +34,8 @@ In terraform folder create a terraform.tfvars file
     consumer_secret = "..."  
     access_token = "..."  
     access_token_secret = "..."
+    
+## DynamoDB
+
+1. Download [DynamoDB Local](https://docs.aws.amazon.com/en_pv/amazondynamodb/latest/developerguide/DynamoDBLocal.html)
+2. Check : `aws dynamodb list-tables --endpoint-url http://localhost:8000`

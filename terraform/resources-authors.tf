@@ -68,7 +68,7 @@ resource "aws_dynamodb_table_item" "Afflatet-Bernard" {
 ITEM
 }
 
-resource "aws_dynamodb_table_item" "Adelstein, Jake" {
+resource "aws_dynamodb_table_item" "Adelstein-Jake" {
   table_name = "${aws_dynamodb_table.authors-table.name}"
   hash_key   = "${aws_dynamodb_table.authors-table.hash_key}"
   item = <<ITEM

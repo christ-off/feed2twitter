@@ -10,7 +10,18 @@ describe('Test Get Author Twitter handle', () => {
         expect.assertions(4);
         // GIVEN
         aws.queryPromise = jest.fn().mockImplementation(() => {
-            return '@DesienneAuteur'
+            return {
+                "Items": [
+                    {
+                        "twitterHandle": {
+                            "S": "@DesienneAuteur"
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ScannedCount": 1,
+                "ConsumedCapacity": null
+            }
         });
         // WHEN
         let result = await tested.getAuthorTwitterHandle('Desienne, Stéphane');
@@ -20,10 +31,10 @@ describe('Test Get Author Twitter handle', () => {
         expect(aws.queryPromise.mock.calls.length).toBe(1);
         expect(aws.queryPromise.mock.calls[0][0]).toEqual(
             {
-                "ExpressionAttributeValues": {":v1": {"S": "Desienne, Stéphane"}},
-                "KeyConditionExpression": "Author = :v1",
-                "ProjectionExpression": "twitterHandle",
-                "TableName": "Authors"
+                KeyConditionExpression: 'Author = :v1',
+                ExpressionAttributeValues: `{ ":v1": {"S": "Desienne, Stéphane"}}`,
+                ProjectionExpression: "twitterHandle",
+                TableName: "Authors"
             }
         );
     });

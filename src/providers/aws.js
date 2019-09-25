@@ -7,7 +7,7 @@
 
 const AWS = require('aws-sdk/index');
 
-exports.dynamoDb = new AWS.DynamoDB.DocumentClient();
+exports.dynamoDb = new AWS.DynamoDB();
 
 /**
  * Export AWS scan promise to mock it easily

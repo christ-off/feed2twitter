@@ -9,6 +9,7 @@ jspm_packages
 # Credentials
 .env
 terraform/terraform.tfvars
+/etc/setenv.sh
 
 # Test coverage
 /coverage/

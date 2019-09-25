@@ -49,7 +49,12 @@ resource "aws_iam_role" "feed2twitter-role" {
   assume_role_policy = "${file("./policies/feed2twitter-policy.json")}"
 }
 
-resource "aws_iam_role_policy_attachment" "feed2twitter_role-attachment" {
+resource "aws_iam_role_policy_attachment" "feed2twitter_dynamodb_role-attachment" {
+role = "${aws_iam_role.feed2twitter-role.name}"
+policy_arn = "arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess"
+}
+
+resource "aws_iam_role_policy_attachment" "feed2twitter_cloudwatch_role-attachment" {
   role = "${aws_iam_role.feed2twitter-role.name}"
   policy_arn = "arn:aws:iam::aws:policy/CloudWatchLogsFullAccess"
 }
@@ -63,6 +68,7 @@ resource "aws_cloudwatch_event_rule" "every_day_1111-rule" {
   depends_on = [
     "aws_lambda_function.feed2twitter-function"
   ]
+  is_enabled = false
   schedule_expression = "cron(11 09 * * ? *)"
 }
 

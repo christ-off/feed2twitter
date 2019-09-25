@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/christ-off/feed2twitter#readme",
   "devDependencies": {
+    "aws-sdk": "^2.536.0",
     "dotenv": "^8.1.0",
     "fs": "0.0.1-security",
     "jest": "^24.9.0",
     "nock": "^11.3.5"
   },
   "dependencies": {
-    "aws-sdk": "^2.534.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "test": "^0.6.0",
