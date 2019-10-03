@@ -1,0 +1,9 @@
+{
+  "Id": { "S": "https://post-tenebras-lire.net/Gunpowder-Moon-David-Pedreira"},
+  "title": { "S": "Gunpowder Moon"},
+  "writer": { "S": "Pedreira, David"},
+  "date": { "S": "2019-09-29T00:00:00+02:00"},
+  "tags": { "S": "Science-Fiction"},
+  "link": { "S": "https://post-tenebras-lire.net/Gunpowder-Moon-David-Pedreira/"},
+  "imageUrl": { "S": "https://post-tenebras-lire.net/assets/posts/2019-09-29-Gunpowder-Moon-David-Pedreira.jpg"}
+}

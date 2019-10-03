@@ -10,7 +10,7 @@ const AWS = require('aws-sdk/index');
 exports.dynamoDb = new AWS.DynamoDB();
 
 /**
- * Export AWS scan promise to mock it easily
+ * Export AWS query promise to mock it easily
  * @param params
  * @returns {Request<DocumentClient.ScanOutput, AWSError>}
  */
@@ -23,6 +23,15 @@ exports.queryPromise = async (params) => {
  * @param params
  * @returns {Request<DocumentClient.ScanOutput, AWSError>}
  */
-exports.putPromise = async (params) => {
-  return exports.dynamoDb.put(params).promise();
+exports.putItemPromise = async (params) => {
+  return exports.dynamoDb.putItem(params).promise();
+};
+
+/**
+ * Export AWS Scan promise to mock it easily
+ * @param params
+ * @returns {Request<DocumentClient.ScanOutput, AWSError>}
+ */
+exports.scanPromise = async (params) => {
+  return exports.dynamoDb.scan(params).promise();
 };

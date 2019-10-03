@@ -31,10 +31,14 @@ describe('Test Get Author Twitter handle', () => {
         expect(aws.queryPromise.mock.calls.length).toBe(1);
         expect(aws.queryPromise.mock.calls[0][0]).toEqual(
             {
-                KeyConditionExpression: 'Author = :v1',
-                ExpressionAttributeValues: `{ ":v1": {"S": "Desienne, Stéphane"}}`,
-                ProjectionExpression: "twitterHandle",
-                TableName: "Authors"
+                "ExpressionAttributeValues": {
+                    ":v1": {
+                        "S": "Desienne, Stéphane"
+                    }
+                },
+                "KeyConditionExpression": "Author = :v1",
+                "ProjectionExpression": "twitterHandle",
+                "TableName": "Authors"
             }
         );
     });
