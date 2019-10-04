@@ -29,50 +29,24 @@ module.exports.processAtomFeed = async () => {
     } else {
         console.log(`No need to load feed table as there is already ${countItems} items`);
     }
-    return countItems;
     // STEP 4 : Read current feed
 
     // STEP 5 : Add current feed to feed table
 
-    // STEP 6 : Count total items
-
-    // STEP 7 : Pick and read one
-
-    // STEP 8 : Prepare for twitter
-
-    // STEP 9 : Post to twitter
-
-    // STEP 10 : Return
-    return countItems;
-};
-
-
-/*
-
- console.log(`Going to process ${feed}`);
-
-let feedContent = await getter.getContent(feed, null);
-    let xml = await xml2js.parseStringPromise(feedContent);
-    let entries = entriesextractor.extractEntries(xml);
-    // STEP 4 : Log (number of entries + selected entry)
-    if (entries == null || !Array.isArray(entries) || entries.length === 0) {
-        console.warn('No entries in feed. Aborting');
-        return {
-            statusCode: 400,
-            body: 'Feed is empty or as no entry',
-        };
+    // STEP 6 : Pick and read one
+    const randomId = await repository.getRandomItemId();
+    if (!randomId){
+        console.warn('No randomId aborting');
+        throw new Error('No randomId aborting');
     }
-    console.log(`Got ${entries.length} entries`);
-    // STEP 3 : Choose between 1 (not the newest 0) up to size of array
-    let rank = Math.floor(Math.random() * entries.length - 1) + 1;
-    console.log(`Entry of rank ${rank} choosen ${JSON.stringify(entries[rank])}`);
-    // STEP 5 : Post
-    twitter.config();
+    const randomItem = await repository.getItem(randomId);
+    console.log(`the chosen one ${JSON.stringify(randomItem)}`);
+    // STEP 7 : Prepare for twitter
+    return randomItem;
+    /*
     let info = infoextractor.extractEntryInformation(entries[rank]);
-    if (!info) {
-        console.warn('Unable to extract info from entry. Aborting');
-        throw new Error(`Error extract info from ${JSON.stringify(entries[rank])}`);
-    }
+    // STEP 7 : Post to twitter
+    twitter.config();
     return twitter.post(info);
-
- */
+     */
+};

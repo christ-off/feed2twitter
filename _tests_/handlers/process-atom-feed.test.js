@@ -27,35 +27,47 @@ describe('Execute Lambda in Mock env', () => {
   });
 
   test('Should count and load', async () => {
-    expect.assertions(4);
+    expect.assertions(6);
     // GIVEN
     repository.countFeedItems = jest.fn();
     repository.countFeedItems
         .mockReturnValueOnce(0)
         .mockReturnValueOnce(320);
     repository.loadEmbeddedItems = jest.fn().mockImplementation(() => { return 320 } );
+    repository.getRandomItemId =  jest.fn().mockImplementation(() => { return 42 } );
+    repository.getItem = jest.fn().mockImplementation(() => {
+      return { item : "returned" };
+    } );
     // WHEN
     let result = await tested.processAtomFeed();
     // THEN
     expect(result).toBeDefined();
-    expect(result).toBe(320);
+    expect(result).toEqual({ item : "returned" });
     expect(repository.countFeedItems.mock.calls.length).toBe(2);
     expect(repository.loadEmbeddedItems.mock.calls.length).toBe(1);
+    expect(repository.getRandomItemId.mock.calls.length).toBe(1);
+    expect(repository.getItem.mock.calls.length).toBe(1);
   });
 
   test('Should count only if enough', async () => {
-    expect.assertions(4);
+    expect.assertions(6);
     // GIVEN
     repository.countFeedItems = jest.fn();
     repository.countFeedItems.mockReturnValue(320);
     repository.loadEmbeddedItems = jest.fn();
+    repository.getRandomItemId =  jest.fn().mockImplementation(() => { return 42 } );
+    repository.getItem = jest.fn().mockImplementation(() => {
+      return { item : "returned" };
+    } );
     // WHEN
     let result = await tested.processAtomFeed();
     // THEN
     expect(result).toBeDefined();
-    expect(result).toBe(320);
+    expect(result).toEqual({ item : "returned" });
     expect(repository.countFeedItems.mock.calls.length).toBe(1);
     expect(repository.loadEmbeddedItems.mock.calls.length).toBe(0);
+    expect(repository.getRandomItemId.mock.calls.length).toBe(1);
+    expect(repository.getItem.mock.calls.length).toBe(1);
   });
 
 

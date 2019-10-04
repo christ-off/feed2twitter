@@ -27,7 +27,7 @@ exports.getAuthorTwitterHandle = async (authorname) => {
             return result.Items[0].twitterHandle.S;
         }
     } else {
-        console.log('Twitter handle not found for ' + authorname);
+        console.log(`Twitter handle not found for ${authorname}`);
         return authorname;
     }
 };
