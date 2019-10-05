@@ -9,16 +9,13 @@ function tagify(category) {
     return '#' + category.replace('-', '');
 }
 
-function extractTags(tags) {
-    if (!Array.isArray(tags)) {
-        return null;
-    } else {
-        let result = '';
-        for (let i = 0; i < tags.length; i++) {
-            result = result + ' ' + tagify(tags[i]);
-        }
-        return result;
+function extractTags(tagstring) {
+    let result = '';
+    let tags = tagstring.split(',');
+    for (let i = 0; i < tags.length; i++) {
+        result = result + ' ' + tagify(tags[i].trim());
     }
+    return result;
 }
 
 exports.extractStatus = async (info) => {

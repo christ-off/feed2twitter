@@ -45,17 +45,17 @@ describe('Test all feature of Feed repository', () => {
         let result = await tested.loadEmbeddedItems();
         // THEN
         expect(result).toBeDefined();
-        expect(result).toEqual(320);
-        expect(aws.putItemPromise.mock.calls.length).toBe(320);
+        expect(result).toEqual(293);
+        expect(aws.putItemPromise.mock.calls.length).toBe(293);
         expect(aws.putItemPromise.mock.calls[0][0]).toEqual({
                 Item: {
-                    "Id": {S: "https://post-tenebras-lire.net/Gunpowder-Moon-David-Pedreira"},
-                    "title": {S: "Gunpowder Moon"},
-                    "writer": {S: "Pedreira, David"},
-                    "date": {S: "2019-09-29T00:00:00+02:00"},
-                    "tags": {S: "Science-Fiction"},
-                    "link": {S: "https://post-tenebras-lire.net/Gunpowder-Moon-David-Pedreira/"},
-                    "imageUrl": {S: "https://post-tenebras-lire.net/assets/posts/2019-09-29-Gunpowder-Moon-David-Pedreira.jpg"}
+                    "Id": {S: "https://post-tenebras-lire.net/metamaus-art-spiegelman"},
+                    "title": {S: "MetaMaus" },
+                    "writer": {S:  "Spiegelman, Art"},
+                    "date": {S: "2019-10-03T00:00:00+02:00"},
+                    "tags": {S: "BD,Histoire"},
+                    "link": {S: "https://post-tenebras-lire.net/metamaus-art-spiegelman/"},
+                    "imageUrl": {S: "https://post-tenebras-lire.net/assets/posts/2019-10-03-metamaus-art-spiegelman.jpg"}
                 },
                 ReturnConsumedCapacity: "TOTAL",
                 TableName: 'Feed'

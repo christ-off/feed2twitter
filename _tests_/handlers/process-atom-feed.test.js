@@ -4,6 +4,9 @@ const tested = require('../../src/handlers/process-atom-feed');
 const repository = require('../../src/repository/feed-repository');
 jest.mock('../../src/repository/feed-repository');
 
+const twitter = require('../../src/output/tweet');
+jest.mock('../../src/output/tweet');
+
 const dotenv = require('dotenv');
 const nock = require('nock');
 
@@ -27,73 +30,55 @@ describe('Execute Lambda in Mock env', () => {
   });
 
   test('Should count and load', async () => {
-    expect.assertions(6);
+    expect.assertions(7);
     // GIVEN
     repository.countFeedItems = jest.fn();
     repository.countFeedItems
         .mockReturnValueOnce(0)
-        .mockReturnValueOnce(320);
-    repository.loadEmbeddedItems = jest.fn().mockImplementation(() => { return 320 } );
+        .mockReturnValueOnce(293);
+    repository.loadEmbeddedItems = jest.fn().mockImplementation(() => { return 293 } );
     repository.getRandomItemId =  jest.fn().mockImplementation(() => { return 42 } );
     repository.getItem = jest.fn().mockImplementation(() => {
       return { item : "returned" };
+    } );
+    twitter.post = jest.fn().mockImplementation(() => {
+      return { item : "twitter" };
     } );
     // WHEN
     let result = await tested.processAtomFeed();
     // THEN
     expect(result).toBeDefined();
-    expect(result).toEqual({ item : "returned" });
+    expect(result).toEqual({ item : "twitter" });
     expect(repository.countFeedItems.mock.calls.length).toBe(2);
     expect(repository.loadEmbeddedItems.mock.calls.length).toBe(1);
     expect(repository.getRandomItemId.mock.calls.length).toBe(1);
     expect(repository.getItem.mock.calls.length).toBe(1);
+    expect(twitter.post.mock.calls.length).toBe(1);
   });
 
   test('Should count only if enough', async () => {
-    expect.assertions(6);
+    expect.assertions(7);
     // GIVEN
     repository.countFeedItems = jest.fn();
-    repository.countFeedItems.mockReturnValue(320);
+    repository.countFeedItems.mockReturnValue(293);
     repository.loadEmbeddedItems = jest.fn();
     repository.getRandomItemId =  jest.fn().mockImplementation(() => { return 42 } );
     repository.getItem = jest.fn().mockImplementation(() => {
       return { item : "returned" };
     } );
+    twitter.post = jest.fn().mockImplementation(() => {
+      return { item : "twitter" };
+    } );
     // WHEN
     let result = await tested.processAtomFeed();
     // THEN
     expect(result).toBeDefined();
-    expect(result).toEqual({ item : "returned" });
+    expect(result).toEqual({ item : "twitter" });
     expect(repository.countFeedItems.mock.calls.length).toBe(1);
     expect(repository.loadEmbeddedItems.mock.calls.length).toBe(0);
     expect(repository.getRandomItemId.mock.calls.length).toBe(1);
     expect(repository.getItem.mock.calls.length).toBe(1);
+    expect(twitter.post.mock.calls.length).toBe(1);
   });
-
-
-  /*
-  test('Get should abort on entry-less feed', async () => {
-    expect.assertions(1);
-    // GIVEN
-    let feedContent = fs.readFileSync(NO_ENTRY_FEED_FILE);
-    nock("http://127.0.0.1:4000").get('/feed.xml').reply(200, feedContent);
-    // WHEN
-    let data = await tested.processAtomFeed();
-    // THEN
-    expect(data).toEqual({"body": "Feed is empty or as no entry", "statusCode": 400});
-  });
-
-  test('Get should return mock tweet result', async () => {
-    expect.assertions(1);
-    // GIVEN
-    let feedContent = fs.readFileSync(FEED_FILE);
-    nock("http://127.0.0.1:4000").get('/feed.xml').reply(200, feedContent);
-    twitter.post = jest.fn().mockImplementation(() => { return 'COUCOU' } );
-    // WHEN
-    let data = await tested.processAtomFeed();
-    // THEN
-    expect(data).toEqual('COUCOU');
-  });
-   */
 
 });

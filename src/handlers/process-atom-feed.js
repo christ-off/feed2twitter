@@ -2,10 +2,12 @@
 
 const repository = require('../repository/feed-repository');
 
+/*
 const getter = require('../input/get-content');
 const xml2js = require('xml2js');
 const entriesextractor = require('../domain/extract-entries');
-const infoextractor = require('../domain/extract-info');
+const converter = require('../domain/twitter-converter');
+*/
 const twitter = require('../output/tweet');
 
 const FEED_ENV = 'feed';
@@ -39,14 +41,9 @@ module.exports.processAtomFeed = async () => {
         console.warn('No randomId aborting');
         throw new Error('No randomId aborting');
     }
-    const randomItem = await repository.getItem(randomId);
-    console.log(`the chosen one ${JSON.stringify(randomItem)}`);
-    // STEP 7 : Prepare for twitter
-    return randomItem;
-    /*
-    let info = infoextractor.extractEntryInformation(entries[rank]);
+    const info = await repository.getItem(randomId);
+    console.log(`the chosen one ${JSON.stringify(info)}`);
     // STEP 7 : Post to twitter
     twitter.config();
     return twitter.post(info);
-     */
 };
