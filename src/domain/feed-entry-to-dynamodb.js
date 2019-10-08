@@ -3,7 +3,7 @@
 /**
  * This function extract tags (but NOT the first one and make tags out of them
  * @param entry
- * @return string[] array of strings transformed into hashtags
+ * @return string tags separated by comma
  */
 function extractTags(entry) {
     if (!entry || !entry.category || !Array.isArray(entry.category)) {
@@ -14,7 +14,7 @@ function extractTags(entry) {
             let categoryText = entry.category[i].$.term;
             result.push(categoryText);
         }
-        return result;
+        return result.join(', ');
     }
 }
 
@@ -73,13 +73,18 @@ function extractImageUrl(entry) {
  * @param entry
  * @return {{imageUrl: null, id: null, writer: *, tag: *, title: *}}
  */
-exports.extractEntryInformation = (entry) => {
+exports.feedEntryToDynamoDb = (entry) => {
     return {
-        id: extractId(entry),
-        title: extractTitle(entry),
-        writer: extractWriter(entry),
-        tags: extractTags(entry),
-        link: extractLink(entry),
-        imageUrl: extractImageUrl(entry)
+        Item: {
+            "Id": {S: extractId(entry) },
+            "title": {S: extractTitle(entry) },
+            "writer": {S:  extractWriter(entry) },
+            "date": {S: entry.published[0]},
+            "tags": {S: extractTags(entry) },
+            "link": {S: extractLink(entry)},
+            "imageUrl": {S: extractImageUrl(entry) }
+        },
+        ReturnConsumedCapacity: "TOTAL",
+            TableName: 'Feed'
     }
 };

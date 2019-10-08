@@ -1,6 +1,6 @@
 'use strict';
 
-const tested = require('../../src/domain/extract-info');
+const tested = require('../../src/domain/feed-entry-to-dynamodb');
 
 const ENTRY = {
     "title": [
@@ -72,16 +72,21 @@ describe('Test information extraction from entry', () => {
     test('Should extract expected info', () => {
         // GIVEN
         // WHEN
-        let result = tested.extractEntryInformation(ENTRY);
+        let result = tested.feedEntryToDynamoDb(ENTRY);
         // THEN
         expect(result).toBeDefined();
         expect(result).toEqual({
-                id: 'https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne',
-                title: 'Hérésie minérale',
-                writer: 'Desienne, Stéphane',
-                tags: ['Nouvelle','Science-Fiction', 'Religion'],
-                link: 'https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne/',
-                imageUrl: 'https://post-tenebras-lire.net/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.jpg'
+                Item: {
+                    "Id": {S: "https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne"},
+                    "title": {S: "Hérésie minérale" },
+                    "writer": {S:  "Desienne, Stéphane"},
+                    "date": {S: "2019-09-07T00:00:00+02:00"},
+                    "tags": {S: "Nouvelle, Science-Fiction, Religion"},
+                    "link": {S: "https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne/"},
+                    "imageUrl": {S: "https://post-tenebras-lire.net/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.jpg"}
+                },
+                ReturnConsumedCapacity: "TOTAL",
+                TableName: 'Feed'
             }
         );
     });

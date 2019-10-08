@@ -7,17 +7,11 @@ jest.mock('../../src/repository/feed-repository');
 const twitter = require('../../src/output/tweet');
 jest.mock('../../src/output/tweet');
 
+const readfeedsave = require('../../src/domain/read-feed-and-save');
+jest.mock('../../src/domain/read-feed-and-save');
+
 const dotenv = require('dotenv');
 const nock = require('nock');
-
-/*
-const fs = require('fs');
-const twitter = require('../../src/output/tweet');
-jest.mock('../../src/output/tweet');
-
-const FEED_FILE = '_tests_/feed.xml';
-const NO_ENTRY_FEED_FILE = '_tests_/no_entry_feed.xml';
-*/
 
 describe('Execute Lambda in Mock env', () => {
 
@@ -41,7 +35,8 @@ describe('Execute Lambda in Mock env', () => {
     repository.getItem = jest.fn().mockImplementation(() => {
       return { item : "returned" };
     } );
-    twitter.post = jest.fn().mockImplementation(() => {
+    readfeedsave.readFeedAndSave = jest.fn().mockImplementation(() => { return 10 } );
+     twitter.post = jest.fn().mockImplementation(() => {
       return { item : "twitter" };
     } );
     // WHEN

@@ -83,7 +83,7 @@ resource "aws_cloudwatch_event_rule" "every_day_1111-rule" {
     "aws_lambda_function.feed2twitter-function"
   ]
   is_enabled = true
-  schedule_expression = "cron(11 09 * * ? *)"
+  schedule_expression = "cron(11 05 * * ? *)"
 }
 
 resource "aws_cloudwatch_event_target" "every_day_1111-target" {

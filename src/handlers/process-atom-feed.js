@@ -1,14 +1,8 @@
 'use strict';
 
 const repository = require('../repository/feed-repository');
-
-/*
-const getter = require('../input/get-content');
-const xml2js = require('xml2js');
-const entriesextractor = require('../domain/extract-entries');
-const converter = require('../domain/twitter-converter');
-*/
 const twitter = require('../output/tweet');
+const readfeedsave = require('../domain/read-feed-and-save');
 
 const FEED_ENV = 'feed';
 const LOW_LIMIT = 10;
@@ -31,11 +25,9 @@ module.exports.processAtomFeed = async () => {
     } else {
         console.log(`No need to load feed table as there is already ${countItems} items`);
     }
-    // STEP 4 : Read current feed
-
-    // STEP 5 : Add current feed to feed table
-
-    // STEP 6 : Pick and read one
+    // STEP 4 : Read current feed and add to table
+    await readfeedsave.readFeedAndSave(feed);
+    // STEP 5 : Pick and read one
     const randomId = await repository.getRandomItemId();
     if (!randomId){
         console.warn('No randomId aborting');
@@ -43,7 +35,7 @@ module.exports.processAtomFeed = async () => {
     }
     const info = await repository.getItem(randomId);
     console.log(`the chosen one ${JSON.stringify(info)}`);
-    // STEP 7 : Post to twitter
+    // STEP 6 : Post to twitter
     twitter.config();
     return twitter.post(info);
 };
