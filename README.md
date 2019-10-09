@@ -14,6 +14,7 @@ A nodeJS Lambda to parse a feed and post a random entry to twitter
 8. Enrich feed from blog with editor info ?
 9. Get editor and post using their twitter handler
 10. Random text before tweet 
+11. Use terraform env to deploy multiple lambdas and tables 
 
 ## Requirements
 
