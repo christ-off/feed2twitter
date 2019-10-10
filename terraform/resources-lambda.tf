@@ -77,18 +77,18 @@ resource "aws_iam_role_policy_attachment" "feed2twitter_cloudwatch_role-attachme
 # TRIGGER
 ###########
 
-resource "aws_cloudwatch_event_rule" "every_day_1111-rule" {
-  name = "every_day_1111"
+resource "aws_cloudwatch_event_rule" "every_day-rule" {
+  name = "every_day"
   depends_on = [
     "aws_lambda_function.feed2twitter-function"
   ]
   is_enabled = true
-  schedule_expression = "cron(11 05 * * ? *)"
+  schedule_expression = "cron(07 05 * * ? *)"
 }
 
 resource "aws_cloudwatch_event_target" "every_day_1111-target" {
   # target_id = "demo_lambda" // Worked for me after I added `target_id`
-  rule = "${aws_cloudwatch_event_rule.every_day_1111-rule.name}"
+  rule = "${aws_cloudwatch_event_rule.every_day-rule.name}"
   arn = "${aws_lambda_function.feed2twitter-function.arn}"
 }
 
@@ -97,5 +97,5 @@ resource "aws_lambda_permission" "every_day_1111-permission" {
   action = "lambda:InvokeFunction"
   function_name = "${aws_lambda_function.feed2twitter-function.function_name}"
   principal = "events.amazonaws.com"
-  source_arn = "${aws_cloudwatch_event_rule.every_day_1111-rule.arn}"
+  source_arn = "${aws_cloudwatch_event_rule.every_day-rule.arn}"
 }
