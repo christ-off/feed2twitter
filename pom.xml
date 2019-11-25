@@ -12,7 +12,7 @@
 
     <properties>
         <frontend-maven-plugin-version>1.8.0</frontend-maven-plugin-version>
-        <node-version>v10.16.3</node-version>
+        <node-version>v12.13.1</node-version>
         <maven-assembly-plugin-version>3.1.1</maven-assembly-plugin-version>
         <tf-maven-version>0.6</tf-maven-version>
     </properties>
