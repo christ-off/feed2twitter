@@ -1,4 +1,149 @@
 [
+
+
+  {
+    "id": "https://post-tenebras-lire.net/Sur-Mars_Arnauld-Pontier",
+    "title": "Sur Mars",
+    "writer": "Pontier, Arnauld",
+    "date": "2019-11-24T00:00:00+01:00",
+    "tags": "Science-Fiction",
+    "link": "https://post-tenebras-lire.net/Sur-Mars_Arnauld-Pontier/",
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-11-24-Sur-Mars_Arnauld-Pontier.jpg"
+  }
+
+,
+
+
+  {
+    "id": "https://post-tenebras-lire.net/Une-paysanne-russe_L%C3%A9on-Tolsto%C3%AF",
+    "title": "Une paysanne russe",
+    "writer": "Tolstoï, Léon",
+    "date": "2019-11-21T00:00:00+01:00",
+    "tags": "Russie",
+    "link": "https://post-tenebras-lire.net/Une-paysanne-russe_L%C3%A9on-Tolsto%C3%AF/",
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-11-21-Une-paysanne-russe_L%C3%A9on-Tolsto%C3%AF.jpg"
+  }
+
+,
+
+
+  {
+    "id": "https://post-tenebras-lire.net/Dans-l-oeil-du-d%C3%A9mon_Junichir%C3%B4-Tanizaki",
+    "title": "Dans l’oeil du démon",
+    "writer": "Tanizaki, Junichirô",
+    "date": "2019-11-18T00:00:00+01:00",
+    "tags": "Japon",
+    "link": "https://post-tenebras-lire.net/Dans-l-oeil-du-d%C3%A9mon_Junichir%C3%B4-Tanizaki/",
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-11-18-Dans-l-oeil-du-d%C3%A9mon_Junichir%C3%B4-Tanizaki.jpg"
+  }
+
+,
+
+
+  {
+    "id": "https://post-tenebras-lire.net/Start-up-g%C3%A9n%C3%A9ration-Marc-Dubuisson",
+    "title": "Start-up génération",
+    "writer": "Dubuisson, Marc",
+    "date": "2019-11-16T00:00:00+01:00",
+    "tags": "Humour,BD",
+    "link": "https://post-tenebras-lire.net/Start-up-g%C3%A9n%C3%A9ration-Marc-Dubuisson/",
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-11-16-Start-up-g%C3%A9n%C3%A9ration-Marc-Dubuisson.jpg"
+  }
+
+,
+
+
+  {
+    "id": "https://post-tenebras-lire.net/Banlieue-Est-Jean-Baptiste-Ferrero",
+    "title": "Banlieue Est",
+    "writer": "Ferrero, Jean-Baptiste",
+    "date": "2019-11-12T00:00:00+01:00",
+    "tags": "Polar,Coup de cœur",
+    "link": "https://post-tenebras-lire.net/Banlieue-Est-Jean-Baptiste-Ferrero/",
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-11-12-Banlieue-Est-Jean-Baptiste-Ferrero.jpg"
+  }
+
+,
+
+
+  {
+    "id": "https://post-tenebras-lire.net/Dealer-Iceberg_Stephanne_Desienne",
+    "title": "Dealer d’iceberg",
+    "writer": "Desienne, Stéphane",
+    "date": "2019-11-04T00:00:00+01:00",
+    "tags": "Science-Fiction,Nouvelle",
+    "link": "https://post-tenebras-lire.net/Dealer-Iceberg_Stephanne_Desienne/",
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-11-04-Dealer-Iceberg_Stephanne_Desienne.jpg"
+  }
+
+,
+
+
+  {
+    "id": "https://post-tenebras-lire.net/Aurora-Kim-Stanley-Robinson",
+    "title": "Aurora",
+    "writer": "Robinson, Kim Stanley",
+    "date": "2019-11-03T00:00:00+01:00",
+    "tags": "Science-Fiction",
+    "link": "https://post-tenebras-lire.net/Aurora-Kim-Stanley-Robinson/",
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-11-03-Aurora-Kim-Stanley-Robinson.jpg"
+  }
+
+,
+
+
+  {
+    "id": "https://post-tenebras-lire.net/ADN-Yrsa-Sigur%C3%B0ard%C3%B3ttir",
+    "title": "ADN",
+    "writer": "Sigurðardóttir, Yrsa",
+    "date": "2019-10-29T00:00:00+01:00",
+    "tags": "Polar",
+    "link": "https://post-tenebras-lire.net/ADN-Yrsa-Sigur%C3%B0ard%C3%B3ttir/",
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-10-29-ADN-Yrsa-Sigur%C3%B0ard%C3%B3ttir.jpg"
+  }
+
+,
+
+
+  {
+    "id": "https://post-tenebras-lire.net/Les-machines-fant%C3%B4mes-Olivier-Paquet",
+    "title": "Les machines fantômes",
+    "writer": "Paquet, Olivier",
+    "date": "2019-10-23T00:00:00+02:00",
+    "tags": "Science-Fiction,Espionnage",
+    "link": "https://post-tenebras-lire.net/Les-machines-fant%C3%B4mes-Olivier-Paquet/",
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-10-23-Les-machines-fant%C3%B4mes-Olivier-Paquet.jpg"
+  }
+
+,
+
+
+  {
+    "id": "https://post-tenebras-lire.net/La-maison-des-Derviches-Ian-McDonald",
+    "title": "La maison des Derviches",
+    "writer": "McDonald, Ian",
+    "date": "2019-10-14T00:00:00+02:00",
+    "tags": "Science-Fiction",
+    "link": "https://post-tenebras-lire.net/La-maison-des-Derviches-Ian-McDonald/",
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-10-14-La-maison-des-Derviches-Ian-McDonald.jpg"
+  }
+
+,
+
+
+  {
+    "id": "https://post-tenebras-lire.net/Luna-Lune%20montante-Ian-McDonald",
+    "title": "Luna : Lune montante",
+    "writer": "McDonald, Ian",
+    "date": "2019-10-05T00:00:00+02:00",
+    "tags": "Science-Fiction",
+    "link": "https://post-tenebras-lire.net/Luna-Lune-montante-Ian-McDonald/",
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-10-05-Luna-Lune%20montante-Ian-McDonald.jpg"
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/metamaus-art-spiegelman",
     "title": "MetaMaus",
@@ -7,7 +152,11 @@
     "tags": "BD,Histoire",
     "link": "https://post-tenebras-lire.net/metamaus-art-spiegelman/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-10-03-metamaus-art-spiegelman.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Gunpowder-Moon-David-Pedreira",
     "title": "Gunpowder Moon",
@@ -16,7 +165,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Gunpowder-Moon-David-Pedreira/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-09-29-Gunpowder-Moon-David-Pedreira.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Pacemaker-Bernard-Afflatet",
     "title": "Pacemaker",
@@ -25,7 +178,11 @@
     "tags": "Fantastique",
     "link": "https://post-tenebras-lire.net/Pacemaker-Bernard-Afflatet/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-09-25-Pacemaker-Bernard-Afflatet.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/La-Grande-Faucheuse-James-Morrow",
     "title": "La Grande Faucheuse",
@@ -34,7 +191,11 @@
     "tags": "Religion,Humour",
     "link": "https://post-tenebras-lire.net/La-Grande-Faucheuse-James-Morrow/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-09-22-La-Grande-Faucheuse-James-Morrow.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne",
     "title": "Hérésie minérale",
@@ -43,7 +204,11 @@
     "tags": "Nouvelle,Science-Fiction,Religion",
     "link": "https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Le-Jugement-de-J%C3%A9hovah-James-Morrow",
     "title": "Le Jugement de Jéhovah",
@@ -52,16 +217,24 @@
     "tags": "Religion,Humour",
     "link": "https://post-tenebras-lire.net/Le-Jugement-de-J%C3%A9hovah-James-Morrow/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-09-06-Le-Jugement-de-J%C3%A9hovah-James-Morrow.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Le-livre-jaune-Michael-Roch",
     "title": "Le livre jaune",
     "writer": "Roch, Michael",
     "date": "2019-08-26T00:00:00+02:00",
-    "tags": "Onirique",
+    "tags": "Onirique,Coup de cœur",
     "link": "https://post-tenebras-lire.net/Le-livre-jaune-Michael-Roch/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-08-26-Le-livre-jaune-Michael-Roch.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/La-fille-de-la-sup%C3%A9rette-Sayaka-Murata",
     "title": "La fille de la supérette",
@@ -70,16 +243,24 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/La-fille-de-la-sup%C3%A9rette-Sayaka-Murata/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-08-25-La-fille-de-la-sup%C3%A9rette-Sayaka-Murata.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Le-chant-de-Kali-Dan-Simmons",
     "title": "Le chant de Kali",
     "writer": "Simmons, Dan",
     "date": "2019-08-21T00:00:00+02:00",
-    "tags": "Fantastique,Horreur,Inde",
+    "tags": "Fantastique,Horreur,Inde,Coup de cœur",
     "link": "https://post-tenebras-lire.net/Le-chant-de-Kali-Dan-Simmons/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-08-21-Le-chant-de-Kali-Dan-Simmons.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Les-annales-du-Disque-Monde-Le-r%C3%A9giment-monstrueux",
     "title": "Les annales du Disque-Monde, Tome 29 : Le régiment monstrueux",
@@ -88,7 +269,11 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/Les-annales-du-Disque-Monde-Le-r%C3%A9giment-monstrueux/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-08-19-Les-annales-du-Disque-Monde-Le-r%C3%A9giment-monstrueux.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Androm%C3%A8de_Voyager_Tome_3_stephanne_desienne",
     "title": "Andromède: Voyager Tome 3",
@@ -97,7 +282,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Androm%C3%A8de_Voyager_Tome_3_stephanne_desienne/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-08-12-Androm%C3%A8de_Voyager_Tome_3_stephanne_desienne.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Confins_Voyager_Tome%202_stephanne_desienne",
     "title": "Confins: Voyager Tome 2",
@@ -106,7 +295,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Confins_Voyager_Tome-2_stephanne_desienne/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-08-11-Confins_Voyager_Tome%202_stephanne_desienne.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/La_mort_immortelle_Cixin_Liu",
     "title": "La mort immortelle",
@@ -115,7 +308,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/La_mort_immortelle_Cixin_Liu/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-08-07-La_mort_immortelle_Cixin_Liu.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/L_histoire_du_Qu%C3%A9bec_en_30_secondes_Jean-Pierre_Charland",
     "title": "L’histoire du Québec en 30 secondes",
@@ -124,7 +321,11 @@
     "tags": "Histoire,Québec",
     "link": "https://post-tenebras-lire.net/L_histoire_du_Qu%C3%A9bec_en_30_secondes_Jean-Pierre_Charland/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-07-31-L_histoire_du_Qu%C3%A9bec_en_30_secondes_Jean-Pierre_Charland.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/La_for%C3%AAt_sombre_Cixin_Liu",
     "title": "La forêt sombre",
@@ -133,7 +334,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/La_for%C3%AAt_sombre_Cixin_Liu/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-06-17-La_for%C3%AAt_sombre_Cixin_Liu.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Le_probl%C3%A8me_%C3%A0_trois_corps%20_Cixin_Liu",
     "title": "Le problème à trois corps",
@@ -142,43 +347,50 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Le_probl%C3%A8me_%C3%A0_trois_corps-_Cixin_Liu/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-06-03-Le_probl%C3%A8me_%C3%A0_trois_corps%20_Cixin_Liu.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Mais_qui_a_attrap%C3%A9_le_bison_de_Higgs_David_Louapre",
     "title": "Mais qui a attrapé le bison de Higgs ?",
     "writer": "Louapre, David",
     "date": "2019-05-31T00:00:00+02:00",
-    "tags": "Science,Vulgarisation",
+    "tags": "Science,Coup de cœur",
     "link": "https://post-tenebras-lire.net/Mais_qui_a_attrap%C3%A9_le_bison_de_Higgs_David_Louapre/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-05-31-Mais_qui_a_attrap%C3%A9_le_bison_de_Higgs_David_Louapre.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Insoluble_mais_vrai_David_Louapre",
     "title": "Insoluble mais vrai !",
     "writer": "Louapre, David",
     "date": "2019-05-30T00:00:00+02:00",
-    "tags": "Science,Vulgarisation",
+    "tags": "Science",
     "link": "https://post-tenebras-lire.net/Insoluble_mais_vrai_David_Louapre/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-05-30-Insoluble_mais_vrai_David_Louapre.jpg"
-  },
-  {
-    "id": "https://post-tenebras-lire.net/%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C",
-    "title": "Voyage à “Чорнобиль”",
-    "writer": "Moi",
-    "date": "2019-05-24T00:00:00+02:00",
-    "tags": "Voyage,Post-apocalyptique",
-    "link": "https://post-tenebras-lire.net/%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C/",
-    "imageUrl": "https://post-tenebras-lire.net/assets/posts//assets/gallery/%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C/DSCF0457.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Nos_premi%C3%A8res_fois_Nicolas_Teyssandier",
     "title": "Nos premières fois",
     "writer": "Teyssandier, Nicolas",
     "date": "2019-05-13T00:00:00+02:00",
-    "tags": "Science",
+    "tags": "Science,Coup de cœur",
     "link": "https://post-tenebras-lire.net/Nos_premi%C3%A8res_fois_Nicolas_Teyssandier/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-05-13-Nos_premi%C3%A8res_fois_Nicolas_Teyssandier.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Black_man_Richard_Morgan",
     "title": "Black man de Richard Morgan",
@@ -187,7 +399,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Black_man_Richard_Morgan/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-05-08-Black_man_Richard_Morgan.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Le_petit_Fiera_illustr%C3%A9",
     "title": "Le petit Fiera illustré: Dictionnaire politiquement incorrect du management et de l’entreprise",
@@ -196,7 +412,11 @@
     "tags": "Dictionnaire,Entreprise",
     "link": "https://post-tenebras-lire.net/Le_petit_Fiera_illustr%C3%A9/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-05-08-Le_petit_Fiera_illustr%C3%A9.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Takeshi_Kovacs_Furies_d%C3%A9cha%C3%AEn%C3%A9es_Richard_Morgan",
     "title": "Takeshi Kovacs, tome 3 : Furies déchaînées",
@@ -205,7 +425,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Takeshi_Kovacs_Furies_d%C3%A9cha%C3%AEn%C3%A9es_Richard_Morgan/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-04-29-Takeshi_Kovacs_Furies_d%C3%A9cha%C3%AEn%C3%A9es_Richard_Morgan.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Takeshi_Kovacs_Anges_d%C3%A9chus_Richard_Morgan",
     "title": "Takeshi Kovacs, tome 2 : Anges déchus",
@@ -214,25 +438,37 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Takeshi_Kovacs_Anges_d%C3%A9chus_Richard_Morgan/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-04-25-Takeshi_Kovacs_Anges_d%C3%A9chus_Richard_Morgan.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Takeshi_Kovacs_Carbone%20modifi%C3%A9_Altered_Carbon",
     "title": "Takeshi Kovacs, tome 1 : Carbone modifié",
     "writer": "Morgan, Richard",
     "date": "2019-04-14T00:00:00+02:00",
-    "tags": "Polar,Science-Fiction",
+    "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Takeshi_Kovacs_Carbone-modifi%C3%A9_Altered_Carbon/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-04-14-Takeshi_Kovacs_Carbone%20modifi%C3%A9_Altered_Carbon.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-chemin-des-dieux-jean-philippe-depotte",
     "title": "Le chemin des dieux",
     "writer": "Depotte, Jean-Philippe",
     "date": "2019-04-11T00:00:00+02:00",
-    "tags": "Polar,Japon,Fantastique",
+    "tags": "Polar,Japon,Fantastique,Coup de cœur",
     "link": "https://post-tenebras-lire.net/le-chemin-des-dieux-jean-philippe-depotte/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-04-11-le-chemin-des-dieux-jean-philippe-depotte.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-plus-qu-humains-theodore-sturgeon",
     "title": "Les plus qu’humains",
@@ -241,16 +477,24 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/les-plus-qu-humains-theodore-sturgeon/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-04-01-les-plus-qu-humains-theodore-sturgeon.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Derni%C3%A8res-nouvelles-de-Sapiens-Silvana-Condemi",
     "title": "Dernières nouvelles de Sapiens",
     "writer": "Condemi, Silvana",
     "date": "2019-03-09T00:00:00+01:00",
-    "tags": "Science,Vulgarisation",
+    "tags": "Science",
     "link": "https://post-tenebras-lire.net/Derni%C3%A8res-nouvelles-de-Sapiens-Silvana-Condemi/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-03-09-Derni%C3%A8res-nouvelles-de-Sapiens-Silvana-Condemi.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Luna-Lune-du-loup-Ian-McDonald",
     "title": "Luna : Lune du loup",
@@ -259,7 +503,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Luna-Lune-du-loup-Ian-McDonald/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-03-05-Luna-Lune-du-loup-Ian-McDonald.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Luna-Ian-McDonald",
     "title": "Luna",
@@ -268,7 +516,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Luna-Ian-McDonald/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-02-23-Luna-Ian-McDonald.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/La-ferme-des-animaux-George-Orwell",
     "title": "La ferme des animaux",
@@ -277,7 +529,11 @@
     "tags": "Dystopie",
     "link": "https://post-tenebras-lire.net/La-ferme-des-animaux-George-Orwell/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-02-23-La-ferme-des-animaux-George-Orwell.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Le-Gambit-du-Renard-Yoon-ha-Lee",
     "title": "Le Gambit du Renard",
@@ -286,16 +542,24 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Le-Gambit-du-Renard-Yoon-ha-Lee/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-02-19-Le-Gambit-du-Renard-Yoon-ha-Lee.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Aux-sources-de-la-vie-Eric-Karsenti",
     "title": "Aux sources de la vie",
     "writer": "Karsenti, Eric",
     "date": "2019-02-06T00:00:00+01:00",
-    "tags": "Science,Vulgarisation",
+    "tags": "Science",
     "link": "https://post-tenebras-lire.net/Aux-sources-de-la-vie-Eric-Karsenti/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-02-06-Aux-sources-de-la-vie-Eric-Karsenti.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/La-Cit%C3%A9-du-futur-Robert-Charles-Wilson",
     "title": "La Cité du futur",
@@ -304,7 +568,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/La-Cit%C3%A9-du-futur-Robert-Charles-Wilson/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-01-27-La-Cit%C3%A9-du-futur-Robert-Charles-Wilson.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Dessins-politiques-Mix-Remix",
     "title": "Dessins politiques",
@@ -313,7 +581,11 @@
     "tags": "BD,Humour",
     "link": "https://post-tenebras-lire.net/Dessins-politiques-Mix-Remix/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-01-24-Dessins-politiques-Mix-Remix.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Amour-Djihad--RTT-Marc-Dubuisson",
     "title": "Amour, Djihad &amp;amp; RTT",
@@ -322,7 +594,11 @@
     "tags": "BD,Humour",
     "link": "https://post-tenebras-lire.net/Amour-Djihad-RTT-Marc-Dubuisson/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-01-23-Amour-Djihad--RTT-Marc-Dubuisson.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Les-Annales-du-Disque-Monde-Tome-27-Procrastination-Terry-Pratchett",
     "title": "Les Annales du Disque-Monde, Tome 27 : Procrastination",
@@ -331,7 +607,11 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/Les-Annales-du-Disque-Monde-Tome-27-Procrastination-Terry-Pratchett/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-01-22-Les-Annales-du-Disque-Monde-Tome-27-Procrastination-Terry-Pratchett.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/L-Empire-tome-2-Sodome-et-Gomorrhe-Olivier-Bobineau",
     "title": "L’Empire tome 2 : Sodome et Gomorrhe",
@@ -340,7 +620,11 @@
     "tags": "Religion,Histoire",
     "link": "https://post-tenebras-lire.net/L-Empire-tome-2-Sodome-et-Gomorrhe-Olivier-Bobineau/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-01-15-L-Empire-tome-2-Sodome-et-Gomorrhe-Olivier-Bobineau.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/L-Empire-Une-histoire-politique-christianisme-Pascal-Magnat",
     "title": "L’Empire : Une histoire politique du christianisme",
@@ -349,7 +633,11 @@
     "tags": "Religion,Histoire",
     "link": "https://post-tenebras-lire.net/L-Empire-Une-histoire-politique-christianisme-Pascal-Magnat/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-01-14-L-Empire-Une-histoire-politique-christianisme-Pascal-Magnat.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/La-Vie-est-belle-Les-Surprises-de-l-%C3%A9volution-Stephen-Jay-Gould",
     "title": "La Vie est belle : Les Surprises de l’évolution",
@@ -358,7 +646,11 @@
     "tags": "Science",
     "link": "https://post-tenebras-lire.net/La-Vie-est-belle-Les-Surprises-de-l-%C3%A9volution-Stephen-Jay-Gould/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-01-13-La-Vie-est-belle-Les-Surprises-de-l-%C3%A9volution-Stephen-Jay-Gould.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Conscience-contre-violence-Stefan-Zweig",
     "title": "Conscience contre violence",
@@ -367,7 +659,11 @@
     "tags": "Religion,Histoire,Suisse",
     "link": "https://post-tenebras-lire.net/Conscience-contre-violence-Stefan-Zweig/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2019-01-02-Conscience-contre-violence-Stefan-Zweig.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Un-feu-sur-l-ab%C3%AEme-Vernor-Vinge",
     "title": "Un feu sur l’abîme",
@@ -376,16 +672,24 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Un-feu-sur-l-ab%C3%AEme-Vernor-Vinge/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-12-21-Un-feu-sur-l-ab%C3%AEme-Vernor-Vinge.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Dans-la-toile-du-temps-Adrian%20Tchaikovsky",
     "title": "Dans la toile du temps",
     "writer": "Tchaikovsky, Adrian",
     "date": "2018-12-19T00:00:00+01:00",
-    "tags": "Science-Fiction",
+    "tags": "Science-Fiction,Coup de cœur",
     "link": "https://post-tenebras-lire.net/Dans-la-toile-du-temps-Adrian-Tchaikovsky/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-12-19-Dans-la-toile-du-temps-Adrian%20Tchaikovsky.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Ronde_de_nuit_Terry_Pratchett",
     "title": "Les Annales du Disque-Monde, Tome 28 : Ronde de nuit",
@@ -394,7 +698,11 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/Ronde_de_nuit_Terry_Pratchett/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-11-24-Ronde_de_nuit_Terry_Pratchett.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Le_Dernier_des_Yakuzas_Jake_Adelstein",
     "title": "Le Dernier Des Yakuzas",
@@ -403,7 +711,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/Le_Dernier_des_Yakuzas_Jake_Adelstein/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-11-23-Le_Dernier_des_Yakuzas_Jake_Adelstein.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Latium_de_Romain_Lucazeau",
     "title": "Latium",
@@ -412,7 +724,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Latium_de_Romain_Lucazeau/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-11-19-Latium_de_Romain_Lucazeau.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Un_kimono_pour_linceul_Jean_Michel_Leboulanger",
     "title": "Un kimono pour linceul",
@@ -421,7 +737,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/Un_kimono_pour_linceul_Jean_Michel_Leboulanger/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-11-13-Un_kimono_pour_linceul_Jean_Michel_Leboulanger.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Les_rem%C3%A8des_du_docteur_Irabu_Hideo_Okuda",
     "title": "Les Remèdes du Docteur Irabu",
@@ -430,16 +750,24 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/Les_rem%C3%A8des_du_docteur_Irabu_Hideo_Okuda/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-11-12-Les_rem%C3%A8des_du_docteur_Irabu_Hideo_Okuda.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Tokyo_Vice_Jake_Adelstein",
     "title": "Tokyo Vice",
     "writer": "Adelstein, Jake",
     "date": "2018-11-09T00:00:00+01:00",
-    "tags": "Japon",
+    "tags": "Japon,Coup de cœur",
     "link": "https://post-tenebras-lire.net/Tokyo_Vice_Jake_Adelstein/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-11-09-Tokyo_Vice_Jake_Adelstein.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/The_Blue-_Eyed%20_Salaryman_Niall_Murtagh",
     "title": "The Blue-Eyed Salaryman: From World Traveller to Lifer at Mitsubishi",
@@ -448,25 +776,37 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/The_Blue-_Eyed-_Salaryman_Niall_Murtagh/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-11-07-The_Blue-_Eyed%20_Salaryman_Niall_Murtagh.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Le_grand_roman_des%20maths_Micka%C3%ABl_Launay",
     "title": "Le Grand Roman des Maths",
     "writer": "Launay, Mickaël",
     "date": "2018-11-06T00:00:00+01:00",
-    "tags": "Science,Vulgarisation",
+    "tags": "Science",
     "link": "https://post-tenebras-lire.net/Le_grand_roman_des-maths_Micka%C3%ABl_Launay/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-11-06-Le_grand_roman_des%20maths_Micka%C3%ABl_Launay.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/L_Univers_%C3%A0_port%C3%A9e_de_main_Christophe_Galfard",
     "title": "L’univers à portée de main",
     "writer": "Galfard, Christophe",
     "date": "2018-10-17T00:00:00+02:00",
-    "tags": "Science,Vulgarisation",
+    "tags": "Science,Coup de cœur",
     "link": "https://post-tenebras-lire.net/L_Univers_%C3%A0_port%C3%A9e_de_main_Christophe_Galfard/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-10-17-L_Univers_%C3%A0_port%C3%A9e_de_main_Christophe_Galfard.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/The_Accidental_Office_Lady_Laura_Kriska",
     "title": "The Accidental Office Lady",
@@ -475,16 +815,24 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/The_Accidental_Office_Lady_Laura_Kriska/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-10-10-The_Accidental_Office_Lady_Laura_Kriska.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Si_c_est_un%20homme_Primo_Levi",
     "title": "Si c’est un homme",
     "writer": "Levi, Primo",
     "date": "2018-10-08T00:00:00+02:00",
-    "tags": "Biographie,Histoire",
+    "tags": "Biographie,Histoire,Coup de cœur",
     "link": "https://post-tenebras-lire.net/Si_c_est_un-homme_Primo_Levi/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-10-08-Si_c_est_un%20homme_Primo_Levi.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Les_B%C3%A9b%C3%A9s_de_la_consigne_automatique_Ry%C3%BB_Murakami",
     "title": "Les Bébés de la consigne automatique",
@@ -493,7 +841,11 @@
     "tags": "Japon,Onirique",
     "link": "https://post-tenebras-lire.net/Les_B%C3%A9b%C3%A9s_de_la_consigne_automatique_Ry%C3%BB_Murakami/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-10-07-Les_B%C3%A9b%C3%A9s_de_la_consigne_automatique_Ry%C3%BB_Murakami.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Les_Annales_du_Disque_Monde_Tome%2025_Le_Cinqui%C3%A8me_%C3%A9l%C3%A9phant_Terry_Pratchett",
     "title": "Les Annales du Disque-Monde, Tome 25 : Le Cinquième éléphant",
@@ -502,7 +854,11 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/Les_Annales_du_Disque_Monde_Tome-25_Le_Cinqui%C3%A8me_%C3%A9l%C3%A9phant_Terry_Pratchett/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-09-30-Les_Annales_du_Disque_Monde_Tome%2025_Le_Cinqui%C3%A8me_%C3%A9l%C3%A9phant_Terry_Pratchett.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Le_noir_qui_infiltra_le_Ku_Klux_Klan_%20Ron_Stallworth",
     "title": "Le noir qui infiltra le Ku Klux Klan",
@@ -511,16 +867,24 @@
     "tags": "Témoignage",
     "link": "https://post-tenebras-lire.net/Le_noir_qui_infiltra_le_Ku_Klux_Klan_-Ron_Stallworth/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-09-28-Le_noir_qui_infiltra_le_Ku_Klux_Klan_%20Ron_Stallworth.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Y%C3%B4kai_le_monde_%C3%A9trange_des_monstres_japonais",
     "title": "Yôkai ! Le monde étrange des monstres japonais",
     "writer": "Daugey, Fleur",
     "date": "2018-09-25T00:00:00+02:00",
-    "tags": "Japon,Beau livre",
+    "tags": "Japon,Beau livre,Coup de cœur",
     "link": "https://post-tenebras-lire.net/Y%C3%B4kai_le_monde_%C3%A9trange_des_monstres_japonais/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-09-25-Y%C3%B4kai_le_monde_%C3%A9trange_des_monstres_japonais.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Le_Jardin_Arc_en_ciel_Ito_Ogawa",
     "title": "Le Jardin Arc-en-ciel",
@@ -529,7 +893,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/Le_Jardin_Arc_en_ciel_Ito_Ogawa/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-09-24-Le_Jardin_Arc_en_ciel_Ito_Ogawa.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Fuki_no_t%C3%B4_%20Aki_Shimazaki",
     "title": "Fuki-no-tô",
@@ -538,7 +906,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/Fuki_no_t%C3%B4_-Aki_Shimazaki/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-09-23-Fuki_no_t%C3%B4_%20Aki_Shimazaki.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Les_m%C3%A9moires_d_un_chat_Hiro_Arikawa",
     "title": "Les mémoires d’un chat",
@@ -547,7 +919,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/Les_m%C3%A9moires_d_un_chat_Hiro_Arikawa/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-09-18-Les_m%C3%A9moires_d_un_chat_Hiro_Arikawa.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/furari_jiro_taniguchi",
     "title": "Furari",
@@ -556,7 +932,11 @@
     "tags": "Japon,Manga",
     "link": "https://post-tenebras-lire.net/furari_jiro_taniguchi/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-09-17-furari_jiro_taniguchi.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Ha%C3%AFku_%C3%89ric_Calatraba",
     "title": "Haïku",
@@ -565,7 +945,11 @@
     "tags": "Polar,Japon,Russie",
     "link": "https://post-tenebras-lire.net/Ha%C3%AFku_%C3%89ric_Calatraba/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-09-13-Ha%C3%AFku_%C3%89ric_Calatraba.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Le_Japon_moderne_et_l_%C3%A9thique_samoura%C3%AF",
     "title": "Le Japon moderne et l’éthique samouraï",
@@ -574,7 +958,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/Le_Japon_moderne_et_l_%C3%A9thique_samoura%C3%AF/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-09-13-Le_Japon_moderne_et_l_%C3%A9thique_samoura%C3%AF.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Anneaux_Mirabelles_et_Macchabees-Stephane_Desienne",
     "title": "Anneaux, Mirabelles et Macchabees",
@@ -583,7 +971,11 @@
     "tags": "Science-Fiction,Série",
     "link": "https://post-tenebras-lire.net/Anneaux_Mirabelles_et_Macchabees-Stephane_Desienne/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-08-18-Anneaux_Mirabelles_et_Macchabees-Stephane_Desienne.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-illusions-dangereuses-de-vitaly",
     "title": "Illusions dangereuses",
@@ -592,7 +984,11 @@
     "tags": "Religion",
     "link": "https://post-tenebras-lire.net/lecture-illusions-dangereuses-de-vitaly/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-06-01-lecture-illusions-dangereuses-de-vitaly.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-doigts-rouges-par-keigo-higashino",
     "title": "Les doigts rouges",
@@ -601,7 +997,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/les-doigts-rouges-par-keigo-higashino/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-04-28-les-doigts-rouges-par-keigo-higashino.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-par-la-mer-et-les-nuages-de",
     "title": "Par la mer et les nuages",
@@ -610,16 +1010,24 @@
     "tags": "Post-apocalyptique",
     "link": "https://post-tenebras-lire.net/lecture-par-la-mer-et-les-nuages-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-04-17-lecture-par-la-mer-et-les-nuages-de.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Emc2-Christophe-Galfard",
     "title": "E=mc2 L’équation de tous les possibles",
     "writer": "Galfard, Christophe",
     "date": "2018-04-11T00:00:00+02:00",
-    "tags": "Science,Vulgarisation",
+    "tags": "Science",
     "link": "https://post-tenebras-lire.net/Emc2-Christophe-Galfard/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-04-11-Emc2-Christophe-Galfard.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-pulp-dino-hunterdolivier-saraja",
     "title": "Dino Hunter",
@@ -628,7 +1036,11 @@
     "tags": "Post-apocalyptique,Pulp",
     "link": "https://post-tenebras-lire.net/lecture-pulp-dino-hunterdolivier-saraja/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-03-30-lecture-pulp-dino-hunterdolivier-saraja.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/completer-les-blancs-de-keiichiro",
     "title": "Compléter les blancs",
@@ -637,7 +1049,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/completer-les-blancs-de-keiichiro/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-03-30-completer-les-blancs-de-keiichiro.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/science-trous-noirs-et-distorsions-du-temps",
     "title": "Trous noirs et distorsions du temps : L’héritage sulfureux d’Einstein",
@@ -646,7 +1062,11 @@
     "tags": "Science",
     "link": "https://post-tenebras-lire.net/science-trous-noirs-et-distorsions-du-temps/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-03-09-science-trous-noirs-et-distorsions-du.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-delices-de-tokyo-par-durian",
     "title": "Les délices de Tokyo",
@@ -655,7 +1075,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/les-delices-de-tokyo-par-durian/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-02-26-les-delices-de-tokyo-par-durian.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/la-servante-ecarlate-par-margaret",
     "title": "La Servante écarlate",
@@ -664,16 +1088,24 @@
     "tags": "Dystopie",
     "link": "https://post-tenebras-lire.net/la-servante-ecarlate-par-margaret/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-02-21-la-servante-ecarlate-par-margaret.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/cristal-qui-songe-de-theodore-sturgeon",
     "title": "Cristal qui songe",
     "writer": "Sturgeon, Theodore",
     "date": "2018-02-17T00:00:00+01:00",
-    "tags": "Science-Fiction",
+    "tags": "Science-Fiction,Coup de cœur",
     "link": "https://post-tenebras-lire.net/cristal-qui-songe-de-theodore-sturgeon/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-02-17-cristal-qui-songe-de-theodore-sturgeon.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/La_papeterie_Tsubaki%20_Ito_Ogawa",
     "title": "Papeterie Tsubaki",
@@ -682,7 +1114,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/La_papeterie_Tsubaki-_Ito_Ogawa/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-02-10-La_papeterie_Tsubaki%20_Ito_Ogawa.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-loreille-interne-de-robert",
     "title": "L’oreille interne",
@@ -691,7 +1127,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/lecture-loreille-interne-de-robert/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-02-06-lecture-loreille-interne-de-robert.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-bd-bug-denki-bilal",
     "title": "Bug",
@@ -700,7 +1140,11 @@
     "tags": "BD,Science-Fiction",
     "link": "https://post-tenebras-lire.net/lecture-bd-bug-denki-bilal/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-02-03-lecture-bd-bug-denki-bilal.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-en-remorquant-jehovah-de-james",
     "title": "En remorquant Jéhovah",
@@ -709,7 +1153,11 @@
     "tags": "Religion,Humour",
     "link": "https://post-tenebras-lire.net/lecture-en-remorquant-jehovah-de-james/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-02-02-lecture-en-remorquant-jehovah-de-james.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-lagon-noir-darnaldur-indriason-polar",
     "title": "Le lagon noir",
@@ -718,7 +1166,11 @@
     "tags": "Islande,Polar",
     "link": "https://post-tenebras-lire.net/le-lagon-noir-darnaldur-indriason-polar/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-01-17-le-lagon-noir-darnaldur-indriason-polar.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-annales-du-disque-monde-tome-26-la",
     "title": "Les Annales du Disque-Monde, Tome 26 : La Vérité",
@@ -727,7 +1179,11 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/les-annales-du-disque-monde-tome-26-la/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-01-15-les-annales-du-disque-monde-tome-26-la.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-japonais-larbre-du-voyageur-d",
     "title": "L’arbre du voyageur",
@@ -736,7 +1192,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/roman-japonais-larbre-du-voyageur-d/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2018-01-04-roman-japonais-larbre-du-voyageur-d.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-lame-des-horloges-david-mitchell",
     "title": "L’âme des horloges",
@@ -745,7 +1205,11 @@
     "tags": "Post-apocalyptique,Fantastique,Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-lame-des-horloges-david-mitchell/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-12-28-roman-lame-des-horloges-david-mitchell.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/litterature-japonaise-la-maison-dans",
     "title": "La Maison dans l’arbre",
@@ -754,7 +1218,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/litterature-japonaise-la-maison-dans/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-12-09-litterature-japonaise-la-maison-dans.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/zoulag-la-filiere-siberienne-de",
     "title": "Zoulag : la filière sibérienne",
@@ -763,7 +1231,11 @@
     "tags": "Post-apocalyptique,Zombies,Pulp,Série",
     "link": "https://post-tenebras-lire.net/zoulag-la-filiere-siberienne-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-10-13-zoulag-la-filiere-siberienne-de.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-sciencefiction-roses-mecaniques",
     "title": "Roses Mécaniques",
@@ -772,7 +1244,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/lecture-sciencefiction-roses-mecaniques/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-10-11-lecture-sciencefiction-roses-mecaniques.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-anamnese-de-lady-star-laurent-l",
     "title": "Anamnèse de Lady Star",
@@ -781,7 +1257,11 @@
     "tags": "Post-apocalyptique,Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-anamnese-de-lady-star-laurent-l/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-09-08-roman-anamnese-de-lady-star-laurent-l.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/litterature-japonaise-la-cigale-du",
     "title": "La Cigale du huitième jour",
@@ -790,7 +1270,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/litterature-japonaise-la-cigale-du/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-08-29-litterature-japonaise-la-cigale-du.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-science-fiction-blind-lake-par",
     "title": "Blind Lake",
@@ -799,7 +1283,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/lecture-science-fiction-blind-lake-par/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-08-25-lecture-science-fiction-blind-lake-par.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Les-Affinit%C3%A9s-Wilson,-Robert-Charles",
     "title": "Les Affinités",
@@ -808,7 +1296,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/Les-Affinit%C3%A9s-Wilson,-Robert-Charles/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-08-21-lecture-roman-science-fiction-les.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-roman-nuit-mere-de-kurt",
     "title": "Nuit mère",
@@ -817,34 +1309,50 @@
     "tags": "Histoire",
     "link": "https://post-tenebras-lire.net/lecture-roman-nuit-mere-de-kurt/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-08-18-lecture-roman-nuit-mere-de-kurt.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-post-apo-metro-2035-de-dmitry",
     "title": "Métro 2035",
     "writer": "Glukhovsky, Dmitry",
     "date": "2017-08-11T00:00:00+02:00",
-    "tags": "Post-apocalyptique,Russie",
+    "tags": "Science-Fiction,Post-apocalyptique,Russie",
     "link": "https://post-tenebras-lire.net/lecture-post-apo-metro-2035-de-dmitry/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-08-11-lecture-post-apo-metro-2035-de-dmitry.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-post-apo-metro-2034-de-dmitry",
     "title": "Métro 2034",
     "writer": "Glukhovsky, Dmitry",
     "date": "2017-08-03T00:00:00+02:00",
-    "tags": "Post-apocalyptique,Russie",
+    "tags": "Science-Fiction,Post-apocalyptique,Russie",
     "link": "https://post-tenebras-lire.net/lecture-post-apo-metro-2034-de-dmitry/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-08-03-lecture-post-apo-metro-2034-de-dmitry.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-post-apocalyptique-metro-2033",
     "title": "Métro 2033",
     "writer": "Glukhovsky, Dmitry",
     "date": "2017-07-31T00:00:00+02:00",
-    "tags": "Post-apocalyptique,Russie",
+    "tags": "Science-fiction,Post-apocalyptique,Russie,Coup de cœur",
     "link": "https://post-tenebras-lire.net/lecture-post-apocalyptique-metro-2033/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-07-31-lecture-post-apocalyptique-metro-2033.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-linclinaison-de-christopher-priest",
     "title": "L’inclinaison",
@@ -853,7 +1361,11 @@
     "tags": "Fantastique",
     "link": "https://post-tenebras-lire.net/roman-linclinaison-de-christopher-priest/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-04-12-roman-linclinaison-de-christopher-priest.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-la-muraille-de-lave-arnaldur",
     "title": "La muraille de lave",
@@ -862,7 +1374,11 @@
     "tags": "Polar,Islande",
     "link": "https://post-tenebras-lire.net/polar-la-muraille-de-lave-arnaldur/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-03-07-polar-la-muraille-de-lave-arnaldur.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-islandais-betty-par-arnaldur",
     "title": "Betty",
@@ -871,7 +1387,11 @@
     "tags": "Islande,Polar",
     "link": "https://post-tenebras-lire.net/polar-islandais-betty-par-arnaldur/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-03-05-polar-islandais-betty-par-arnaldur.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-fantasy-et-humour-les-annales",
     "title": "Les Annales du Disque-Monde, Tome 24 : Carpe jugulum",
@@ -880,7 +1400,11 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/lecture-fantasy-et-humour-les-annales/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-03-04-lecture-fantasy-et-humour-les-annales.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-les-annales-du-disque-monde",
     "title": "Les Annales du Disque-Monde, Tome 22 : Le Dernier continent",
@@ -889,16 +1413,24 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/lecture-les-annales-du-disque-monde/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-02-28-lecture-les-annales-du-disque-monde.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/Annales-Disque-Monde-Tome-20%20-Le-P%C3%A8re-Porcher",
     "title": "Les Annales du Disque-Monde, Tome 20 : Le Père Porcher",
     "writer": "Pratchett, Terry",
     "date": "2017-02-26T00:00:00+01:00",
-    "tags": "Fantasy,Humour",
+    "tags": "Fantasy,Humour,Coup de cœur",
     "link": "https://post-tenebras-lire.net/Annales-Disque-Monde-Tome-20-Le-P%C3%A8re-Porcher/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-02-26-lecture-fantasy-et-humour-les-annales.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/litterature-russe-memoires-ecrits-dans",
     "title": "Mémoires écrits dans un souterrain",
@@ -907,7 +1439,11 @@
     "tags": "Russie",
     "link": "https://post-tenebras-lire.net/litterature-russe-memoires-ecrits-dans/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-02-21-litterature-russe-memoires-ecrits-dans.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-lechiquier-du-mal-integrale-de",
     "title": "L’échiquier du mal",
@@ -916,7 +1452,11 @@
     "tags": "Thriller",
     "link": "https://post-tenebras-lire.net/lecture-lechiquier-du-mal-integrale-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-02-03-lecture-lechiquier-du-mal-integrale-de.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-zoulag-le-syndrome-finlandais",
     "title": "Zoulag: Le syndrome finlandais",
@@ -925,7 +1465,11 @@
     "tags": "Post-apocalyptique,Nouvelle",
     "link": "https://post-tenebras-lire.net/lecture-zoulag-le-syndrome-finlandais/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-01-15-lecture-zoulag-le-syndrome-finlandais.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-bad-science-de-ben-goldacre",
     "title": "Bad Science",
@@ -934,7 +1478,11 @@
     "tags": "Science",
     "link": "https://post-tenebras-lire.net/lecture-bad-science-de-ben-goldacre/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2017-01-04-lecture-bad-science-de-ben-goldacre.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-zombie-nostalgie-de-ystein-stene",
     "title": "Zombie Nostalgie",
@@ -943,7 +1491,11 @@
     "tags": "Zombies",
     "link": "https://post-tenebras-lire.net/lecture-zombie-nostalgie-de-ystein-stene/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-12-10-lecture-zombie-nostalgie-de-ystein-stene.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-islandais-etranges-rivages",
     "title": "Étranges rivages",
@@ -952,7 +1504,11 @@
     "tags": "Islande,Polar",
     "link": "https://post-tenebras-lire.net/polar-islandais-etranges-rivages/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-12-06-polar-islandais-etranges-rivages.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/fantasy-va-t-en-guerre-terry-pratchett",
     "title": "Les Annales du Disque-Monde, Tome 22 : Va-t-en guerre",
@@ -961,7 +1517,11 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/fantasy-va-t-en-guerre-terry-pratchett/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts//assets/posts/2016-11-23-fantasy-va-t-en-guerre-terry-pratchett.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-japonais-la-fleur-de-lillusion-de",
     "title": "La fleur de l’illusion",
@@ -970,7 +1530,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/polar-japonais-la-fleur-de-lillusion-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-10-25-polar-japonais-la-fleur-de-lillusion-de.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-islandais-hypothermie-arnaldur",
     "title": "Hypothermie",
@@ -979,7 +1543,11 @@
     "tags": "Islande,Polar",
     "link": "https://post-tenebras-lire.net/polar-islandais-hypothermie-arnaldur/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-10-20-polar-islandais-hypothermie-arnaldur.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-le-fils-prodigue-de-jean-baptiste",
     "title": "Le fils prodigue",
@@ -988,7 +1556,11 @@
     "tags": "Polar",
     "link": "https://post-tenebras-lire.net/polar-le-fils-prodigue-de-jean-baptiste/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-10-14-polar-le-fils-prodigue-de-jean-baptiste.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/serie-science-fiction-toxic-saison-2-de",
     "title": "Toxic Saison 2",
@@ -997,7 +1569,11 @@
     "tags": "Série,Science-Fiction",
     "link": "https://post-tenebras-lire.net/serie-science-fiction-toxic-saison-2-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-10-01-serie-science-fiction-toxic-saison-2-de.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/sf-prelude-et-aube-de-la-fondation",
     "title": "Prélude et Aube de la Fondation",
@@ -1006,7 +1582,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/sf-prelude-et-aube-de-la-fondation/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-09-16-sf-prelude-et-aube-de-la-fondation.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-nordique-hiver-arctique-darnaldur",
     "title": "Hiver arctique",
@@ -1015,7 +1595,11 @@
     "tags": "Islande,Polar",
     "link": "https://post-tenebras-lire.net/polar-nordique-hiver-arctique-darnaldur/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-07-16-polar-nordique-hiver-arctique-darnaldur.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-islandais-l-homme-du-lac",
     "title": "L’Homme du Lac",
@@ -1024,7 +1608,11 @@
     "tags": "Islande,Polar",
     "link": "https://post-tenebras-lire.net/polar-islandais-l-homme-du-lac/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-07-06-polar-islandais-l-homme-du-lac.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/novella-sf-sanctum-corpus-dolivier",
     "title": "Sanctum Corpus",
@@ -1033,7 +1621,11 @@
     "tags": "Science-Fiction,Nouvelle",
     "link": "https://post-tenebras-lire.net/novella-sf-sanctum-corpus-dolivier/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-06-29-novella-sf-sanctum-corpus-dolivier.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/serie-sf-exil-integrale-saison-1-de",
     "title": "Exil Intégrale Saison 1",
@@ -1042,7 +1634,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/serie-sf-exil-integrale-saison-1-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-06-22-serie-sf-exil-integrale-saison-1-de.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/saga-post-apocalytique-alone-integrale",
     "title": "Alone Intégrale",
@@ -1051,7 +1647,11 @@
     "tags": "Post-apocalyptique",
     "link": "https://post-tenebras-lire.net/saga-post-apocalytique-alone-integrale/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-06-18-saga-post-apocalytique-alone-integrale.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-voyager-de-stephanne-desienne",
     "title": "Voyager, tome 1 : Jonctions",
@@ -1060,16 +1660,24 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-sf-voyager-de-stephanne-desienne/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-06-13-roman-sf-voyager-de-stephanne-desienne.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/sciences-le-beau-livre-de-lastronomie",
     "title": "Le Beau Livre de l’Astronomie - De l’observation à l’exploration spatiale",
     "writer": "Bell, Jim",
     "date": "2016-06-05T00:00:00+02:00",
-    "tags": "Science,Beau livre,Vulgarisation",
+    "tags": "Science,Beau livre",
     "link": "https://post-tenebras-lire.net/sciences-le-beau-livre-de-lastronomie/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-06-05-sciences-le-beau-livre-de-lastronomie.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/la-voix-arnaldur-indriason-un-polar",
     "title": "La Voix",
@@ -1078,16 +1686,24 @@
     "tags": "Polar,Islande",
     "link": "https://post-tenebras-lire.net/la-voix-arnaldur-indriason-un-polar/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-04-29-la-voix-arnaldur-indriason-un-polar.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-japonais-lequation-de-plein-ete",
     "title": "L’équation de plein été",
     "writer": "Higashino, Keigo",
     "date": "2016-04-19T00:00:00+02:00",
-    "tags": "Japon,Polar",
+    "tags": "Japon,Polar,Coup de cœur",
     "link": "https://post-tenebras-lire.net/polar-japonais-lequation-de-plein-ete/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-04-19-polar-japonais-lequation-de-plein-ete.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/policier-drole-de-mort-de-sophie-moulay",
     "title": "Drôle de mort",
@@ -1096,7 +1712,11 @@
     "tags": "Polar",
     "link": "https://post-tenebras-lire.net/policier-drole-de-mort-de-sophie-moulay/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-04-12-policier-drole-de-mort-de-sophie-moulay.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-les-derniers-jours-du-paradis",
     "title": "Les derniers jours du paradis",
@@ -1105,7 +1725,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-sf-les-derniers-jours-du-paradis/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-04-08-roman-sf-les-derniers-jours-du-paradis.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-islandais-la-femme-en-vert",
     "title": "La femme en vert",
@@ -1114,7 +1738,11 @@
     "tags": "Islande,Polar",
     "link": "https://post-tenebras-lire.net/polar-islandais-la-femme-en-vert/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-03-17-polar-islandais-la-femme-en-vert.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/fantasy-humoristique-les-annales-du",
     "title": "Les Annales du Disque-Monde, Tome 17 : Les Tribulations d’un mage en Aurient",
@@ -1123,7 +1751,11 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/fantasy-humoristique-les-annales-du/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-03-15-fantasy-humoristique-les-annales-du.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-japonais-sortie-parc-gare-dueno",
     "title": "Sortie parc, gare d’Ueno",
@@ -1132,7 +1764,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/roman-japonais-sortie-parc-gare-dueno/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-03-10-roman-japonais-sortie-parc-gare-dueno.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/manga-les-vacances-de-jesus-bouddha",
     "title": "Les vacances de Jésus &amp;amp; Bouddha, Tome 1 à 7",
@@ -1141,7 +1777,11 @@
     "tags": "Manga,Abandonné,Japon,Religion,Humour",
     "link": "https://post-tenebras-lire.net/manga-les-vacances-de-jesus-bouddha/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-03-09-manga-les-vacances-de-jesus-bouddha.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-hard-sf-seul-sur-mars-dandy-weir",
     "title": "Seul sur Mars",
@@ -1150,7 +1790,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-hard-sf-seul-sur-mars-dandy-weir/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-03-06-roman-hard-sf-seul-sur-mars-dandy-weir.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-la-peau-sur-les-os-par-stephen",
     "title": "La Peau sur les os",
@@ -1159,16 +1803,24 @@
     "tags": "Fantastique,Thriller",
     "link": "https://post-tenebras-lire.net/lecture-la-peau-sur-les-os-par-stephen/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-03-05-lecture-la-peau-sur-les-os-par-stephen.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-le-dieu-venu-du-centaure",
     "title": "Le dieu venu du Centaure",
     "writer": "Dick, Philip K.",
     "date": "2016-03-05T00:00:00+01:00",
-    "tags": "Science-Fiction",
+    "tags": "Science-Fiction,Coup de cœur",
     "link": "https://post-tenebras-lire.net/roman-sf-le-dieu-venu-du-centaure/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-03-05-roman-sf-le-dieu-venu-du-centaure.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/indispensable-lecture-comprendre",
     "title": "Comprendre l’antisémitisme",
@@ -1177,7 +1829,11 @@
     "tags": "Politique,Société,Religion",
     "link": "https://post-tenebras-lire.net/indispensable-lecture-comprendre/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-02-25-indispensable-lecture-comprendre.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/uchronie-le-maitre-du-haut-chateau-de",
     "title": "Le maître du haut château",
@@ -1186,7 +1842,11 @@
     "tags": "Science-Fiction,Uchronie",
     "link": "https://post-tenebras-lire.net/uchronie-le-maitre-du-haut-chateau-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-02-09-uchronie-le-maitre-du-haut-chateau-de.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/fantastique-troublereve-par-christophe",
     "title": "Troublerêve",
@@ -1195,7 +1855,11 @@
     "tags": "Fantastique,Fantasy",
     "link": "https://post-tenebras-lire.net/fantastique-troublereve-par-christophe/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-01-31-fantastique-troublereve-par-christophe.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-fantastique-caverne-les-disparus",
     "title": "Caverne - Les disparus du Val",
@@ -1204,7 +1868,11 @@
     "tags": "Fantastique,Polar",
     "link": "https://post-tenebras-lire.net/polar-fantastique-caverne-les-disparus/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-01-17-polar-fantastique-caverne-les-disparus.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lantisemitisme-que-sais-je-n-3734",
     "title": "L’antisémitisme: « Que sais-je ? » n°3734",
@@ -1213,7 +1881,11 @@
     "tags": "Politique,Religion,Histoire",
     "link": "https://post-tenebras-lire.net/lantisemitisme-que-sais-je-n-3734/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-01-16-lantisemitisme-que-sais-je-n-3734.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/nouvelle-minority-report-de-philip-k",
     "title": "Minority Report",
@@ -1222,7 +1894,11 @@
     "tags": "Science-Fiction,Nouvelle",
     "link": "https://post-tenebras-lire.net/nouvelle-minority-report-de-philip-k/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2016-01-14-nouvelle-minority-report-de-philip-k.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-japonais-un-endroit-discret-de",
     "title": "Un endroit discret",
@@ -1231,7 +1907,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/polar-japonais-un-endroit-discret-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-12-30-polar-japonais-un-endroit-discret-de.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/sience-fiction-deus-irae-philip-k-dick",
     "title": "Deus Irae",
@@ -1240,7 +1920,11 @@
     "tags": "Post-apocalyptique,Science-Fiction",
     "link": "https://post-tenebras-lire.net/sience-fiction-deus-irae-philip-k-dick/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-12-26-sience-fiction-deus-irae-philip-k-dick.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/litterature-japonaise-miso-soup-ryu",
     "title": "Miso Soup",
@@ -1249,7 +1933,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/litterature-japonaise-miso-soup-ryu/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-12-16-litterature-japonaise-miso-soup-ryu.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/uchromnie-chroniques-des-annees-noires",
     "title": "Chroniques des années noires",
@@ -1258,7 +1946,11 @@
     "tags": "Uchronie",
     "link": "https://post-tenebras-lire.net/uchromnie-chroniques-des-annees-noires/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-12-12-uchromnie-chroniques-des-annees-noires.gif"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-annales-du-disque-monde-tome-16",
     "title": "Les Annales du Disque-Monde, Tome 16 : Accros du roc",
@@ -1267,7 +1959,11 @@
     "tags": "Fantasy,Humour,Musique",
     "link": "https://post-tenebras-lire.net/les-annales-du-disque-monde-tome-16/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-11-28-les-annales-du-disque-monde-tome-16.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-la-lumiere-de-la-nuit-de-keigo",
     "title": "La lumière de la nuit",
@@ -1276,7 +1972,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/polar-la-lumiere-de-la-nuit-de-keigo/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-11-07-polar-la-lumiere-de-la-nuit-de-keigo.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/journal-dhiroshima-6-aout-30-septembre",
     "title": "Journal d’Hiroshima : 6 août-30 septembre 1945",
@@ -1285,7 +1985,11 @@
     "tags": "Japon,Témoignage",
     "link": "https://post-tenebras-lire.net/journal-dhiroshima-6-aout-30-septembre/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-10-21-journal-dhiroshima-6-aout-30-septembre.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/deux-dictionnaires-des-idees-recues",
     "title": "Deux dictionnaires des idées reçues",
@@ -1294,7 +1998,11 @@
     "tags": "Science",
     "link": "https://post-tenebras-lire.net/deux-dictionnaires-des-idees-recues/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-10-13-deux-dictionnaires-des-idees-recues.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-annales-du-disque-monde-tome-15-le",
     "title": "Les Annales du Disque-Monde, Tome 15 : Le Guet des orfèvres",
@@ -1303,7 +2011,11 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/les-annales-du-disque-monde-tome-15-le/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-09-30-les-annales-du-disque-monde-tome-15-le.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-fantastique-les-voies-danubis-de",
     "title": "Les voies d’Anubis",
@@ -1312,7 +2024,11 @@
     "tags": "Fantastique",
     "link": "https://post-tenebras-lire.net/roman-fantastique-les-voies-danubis-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-09-26-roman-fantastique-les-voies-danubis-de.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-antithese-de-jean-baptiste-ferrero",
     "title": "Antithèse",
@@ -1321,7 +2037,11 @@
     "tags": "Polar",
     "link": "https://post-tenebras-lire.net/polar-antithese-de-jean-baptiste-ferrero/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-08-17-polar-antithese-de-jean-baptiste-ferrero.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-joyland-de-stephen-king",
     "title": "Joyland",
@@ -1330,7 +2050,11 @@
     "tags": "Fantastique",
     "link": "https://post-tenebras-lire.net/roman-joyland-de-stephen-king/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-08-10-roman-joyland-de-stephen-king.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-post-apocalyptique-les-modifies",
     "title": "Les modifiés",
@@ -1339,16 +2063,24 @@
     "tags": "Post-apocalyptique,Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-post-apocalyptique-les-modifies/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-08-06-roman-post-apocalyptique-les-modifies.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-les-dividendes-de-lapocalypse",
     "title": "Les Dividendes de l’Apocalypse",
     "writer": "Desienne, Stéphane",
     "date": "2015-05-30T00:00:00+02:00",
-    "tags": "Science-Fiction",
+    "tags": "Science-Fiction,Coup de cœur",
     "link": "https://post-tenebras-lire.net/roman-sf-les-dividendes-de-lapocalypse/",
-    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-05-30-roman-sf-les-dividendes-de-lapocalypse.png"
-  },
+    "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-05-30-roman-sf-les-dividendes-de-lapocalypse.jpg"
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/manga-gen-dhiroshima-tome-5-keiji",
     "title": "Gen d’Hiroshima, tome 5",
@@ -1357,7 +2089,11 @@
     "tags": "Manga,Japon,Histoire",
     "link": "https://post-tenebras-lire.net/manga-gen-dhiroshima-tome-5-keiji/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-05-20-manga-gen-dhiroshima-tome-5-keiji.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/ca-de-stephen-king",
     "title": "Ça",
@@ -1366,7 +2102,11 @@
     "tags": "Thriller,Fantastique",
     "link": "https://post-tenebras-lire.net/ca-de-stephen-king/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-04-30-ca-de-stephen-king.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lile-des-reves-de-hino-keizo",
     "title": "L’île des rêves",
@@ -1375,16 +2115,24 @@
     "tags": "Japon,Onirique",
     "link": "https://post-tenebras-lire.net/lile-des-reves-de-hino-keizo/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-03-25-lile-des-reves-de-hino-keizo.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-combat-ordinaire-integrale-manu",
     "title": "Le combat ordinaire, Intégrale",
     "writer": "Larcenet, Manu",
     "date": "2015-03-22T00:00:00+01:00",
-    "tags": "BD",
+    "tags": "BD,Coup de cœur",
     "link": "https://post-tenebras-lire.net/le-combat-ordinaire-integrale-manu/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-03-22-le-combat-ordinaire-integrale-manu.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/manga-bonne-nuit-punpun-de-inio-asano",
     "title": "Bonne nuit Punpun",
@@ -1393,7 +2141,11 @@
     "tags": "Manga,Abandonné",
     "link": "https://post-tenebras-lire.net/manga-bonne-nuit-punpun-de-inio-asano/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-03-20-manga-bonne-nuit-punpun-de-inio-asano.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/revolte-sur-la-lune-robert-heinlein",
     "title": "Révolte sur la Lune",
@@ -1402,7 +2154,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/revolte-sur-la-lune-robert-heinlein/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-03-08-revolte-sur-la-lune-robert-heinlein.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lhomme-qui-savait-la-langue-des",
     "title": "L’Homme qui savait la langue des serpents",
@@ -1411,7 +2167,11 @@
     "tags": "Estonie",
     "link": "https://post-tenebras-lire.net/lhomme-qui-savait-la-langue-des/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-03-07-lhomme-qui-savait-la-langue-des.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-beau-livre-de-la-terre-de-la",
     "title": "Le beau livre de la terre : De la formation du système solaire à nos jours",
@@ -1420,7 +2180,11 @@
     "tags": "Science,Beau livre",
     "link": "https://post-tenebras-lire.net/le-beau-livre-de-la-terre-de-la/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-03-01-le-beau-livre-de-la-terre-de-la.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-restaurant-de-lamour-retrouve-dito_74",
     "title": "Le restaurant de l’amour retrouvé",
@@ -1429,7 +2193,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/le-restaurant-de-lamour-retrouve-dito_74/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-02-19-le-restaurant-de-lamour-retrouve-dito_74.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/une-forme-de-guerre-de-iain-banks",
     "title": "Une forme de guerre",
@@ -1438,7 +2206,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/une-forme-de-guerre-de-iain-banks/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-02-17-une-forme-de-guerre-de-iain-banks.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/un-cafe-maison-de-keigo-higashino",
     "title": "Un café maison",
@@ -1447,7 +2219,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/un-cafe-maison-de-keigo-higashino/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-01-30-un-cafe-maison-de-keigo-higashino.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/la-physique-quantique-enfin-expliquee",
     "title": "La Physique Quantique: (enfin) expliquée simplement",
@@ -1456,7 +2232,11 @@
     "tags": "Science",
     "link": "https://post-tenebras-lire.net/la-physique-quantique-enfin-expliquee/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-01-24-la-physique-quantique-enfin-expliquee.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/japon-365-us-et-coutumes",
     "title": "Japon, 365 us et coutumes",
@@ -1465,7 +2245,11 @@
     "tags": "Japon,Beau livre",
     "link": "https://post-tenebras-lire.net/japon-365-us-et-coutumes/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-01-15-japon-365-us-et-coutumes.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/maus-integrale",
     "title": "Maus : Intégrale",
@@ -1474,7 +2258,11 @@
     "tags": "BD,Histoire",
     "link": "https://post-tenebras-lire.net/maus-integrale/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-01-13-maus-integrale.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-tumulte-des-flots-de-yukio-mishima",
     "title": "Le tumulte des flots",
@@ -1483,7 +2271,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/le-tumulte-des-flots-de-yukio-mishima/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-01-09-le-tumulte-des-flots-de-yukio-mishima.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lentite-0247-de-patrick-lee",
     "title": "L’entité 0247",
@@ -1492,7 +2284,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/lentite-0247-de-patrick-lee/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-01-09-lentite-0247-de-patrick-lee.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/conseils-photo-pour-les-voyageurs",
     "title": "Conseils photo pour les voyageurs",
@@ -1501,7 +2297,11 @@
     "tags": "Voyage,Photographie",
     "link": "https://post-tenebras-lire.net/conseils-photo-pour-les-voyageurs/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-01-06-conseils-photo-pour-les-voyageurs.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-annales-du-disque-monde-tome-13-les",
     "title": "Les Annales du Disque-Monde, Tome 13 : Les Petits dieux",
@@ -1510,16 +2310,24 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/les-annales-du-disque-monde-tome-13-les/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2015-01-05-les-annales-du-disque-monde-tome-13-les.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/eratosthene-de-thierry-crouzet",
     "title": "Ératosthène",
     "writer": "Crouzet, Thierry",
     "date": "2014-12-11T00:00:00+01:00",
-    "tags": "Histoire,Biographie,Science",
+    "tags": "Histoire,Biographie",
     "link": "https://post-tenebras-lire.net/eratosthene-de-thierry-crouzet/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-12-11-eratosthene-de-thierry-crouzet.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/manga-i-am-hero-zombies-au-pays-du",
     "title": "I am a hero",
@@ -1528,7 +2336,11 @@
     "tags": "Manga,Post-apocalyptique,Japon",
     "link": "https://post-tenebras-lire.net/manga-i-am-hero-zombies-au-pays-du/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-12-02-manga-i-am-hero-zombies-au-pays-du.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-japonais-le-diable-chuchotait-de",
     "title": "Le diable chuchotait",
@@ -1537,7 +2349,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/polar-japonais-le-diable-chuchotait-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-11-19-polar-japonais-le-diable-chuchotait-de.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-fils-de-la-maitresse-de-petain-de",
     "title": "Le fils de la maîtresse de Pétain",
@@ -1546,7 +2362,11 @@
     "tags": "Histoire",
     "link": "https://post-tenebras-lire.net/le-fils-de-la-maitresse-de-petain-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-10-28-le-fils-de-la-maitresse-de-petain-de.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-japonais-de-karyn-poupee",
     "title": "Les Japonais 日本人",
@@ -1555,7 +2375,11 @@
     "tags": "Japon,Société",
     "link": "https://post-tenebras-lire.net/les-japonais-de-karyn-poupee/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-10-19-les-japonais-de-karyn-poupee.gif"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-annales-du-disque-monde-tome-12",
     "title": "Les Annales du Disque-Monde, Tome 12 : Mécomptes de fées",
@@ -1564,7 +2388,11 @@
     "tags": "Fantasy,Humour",
     "link": "https://post-tenebras-lire.net/les-annales-du-disque-monde-tome-12/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-09-25-les-annales-du-disque-monde-tome-12.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/gen-dhiroshima-tome-4-keiji-nakazawa",
     "title": "Gen d’Hiroshima, tome 4",
@@ -1573,7 +2401,11 @@
     "tags": "Manga,Japon",
     "link": "https://post-tenebras-lire.net/gen-dhiroshima-tome-4-keiji-nakazawa/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-09-22-gen-dhiroshima-tome-4-keiji-nakazawa.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/moi-peter-pan-livre-i-de-michael-roch",
     "title": "Moi Peter Pan Livre I",
@@ -1582,7 +2414,11 @@
     "tags": "Fantastique",
     "link": "https://post-tenebras-lire.net/moi-peter-pan-livre-i-de-michael-roch/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-09-18-moi-peter-pan-livre-i-de-michael-roch.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/un-soupcon-deternite-de-freddy-woets",
     "title": "Un soupçon d’éternité",
@@ -1591,7 +2427,11 @@
     "tags": "Fantastique",
     "link": "https://post-tenebras-lire.net/un-soupcon-deternite-de-freddy-woets/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-09-13-un-soupcon-deternite-de-freddy-woets.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/la-compagnie-robert-littell",
     "title": "La Compagnie",
@@ -1600,7 +2440,11 @@
     "tags": "Espionnage,Polar",
     "link": "https://post-tenebras-lire.net/la-compagnie-robert-littell/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-09-11-la-compagnie-robert-littell.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/kokekokko-16-vues-du-japon-decouvrir",
     "title": "Kokekokko - 16 vues du Japon à découvrir",
@@ -1609,7 +2453,11 @@
     "tags": "Japon,Beau livre",
     "link": "https://post-tenebras-lire.net/kokekokko-16-vues-du-japon-decouvrir/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-09-06-kokekokko-16-vues-du-japon-decouvrir.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/histoire-damour-de-zombies-vivant-isaac",
     "title": "Vivant",
@@ -1618,7 +2466,11 @@
     "tags": "Post-apocalyptique",
     "link": "https://post-tenebras-lire.net/histoire-damour-de-zombies-vivant-isaac/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-08-15-histoire-damour-de-zombies-vivant-isaac.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-heureux-les-elus-de-jean-baptiste",
     "title": "Heureux les élus !",
@@ -1627,7 +2479,11 @@
     "tags": "Polar",
     "link": "https://post-tenebras-lire.net/polar-heureux-les-elus-de-jean-baptiste/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-08-12-polar-heureux-les-elus-de-jean-baptiste.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/oeuvre-grandiose-confiteor-de-jaum-cabre",
     "title": "Confiteor",
@@ -1636,7 +2492,11 @@
     "tags": "Espagne",
     "link": "https://post-tenebras-lire.net/oeuvre-grandiose-confiteor-de-jaum-cabre/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-08-11-oeuvre-grandiose-confiteor-de-jaum-cabre.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/nouvelle-post-apocalyptique-spores",
     "title": "Spores !",
@@ -1645,7 +2505,11 @@
     "tags": "Post-apocalyptique,Nouvelle",
     "link": "https://post-tenebras-lire.net/nouvelle-post-apocalyptique-spores/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-07-23-nouvelle-post-apocalyptique-spores.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-despionnage-on-les-croise-parfois",
     "title": "On les croise parfois",
@@ -1654,7 +2518,11 @@
     "tags": "Espionnage",
     "link": "https://post-tenebras-lire.net/roman-despionnage-on-les-croise-parfois/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-07-22-roman-despionnage-on-les-croise-parfois.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-catastrophe-la-submersion-du",
     "title": "La submersion du Japon",
@@ -1663,7 +2531,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/roman-catastrophe-la-submersion-du/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-07-18-roman-catastrophe-la-submersion-du.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/ebook-sf-mitania-de-bernard-afflatet",
     "title": "Mitania",
@@ -1672,7 +2544,11 @@
     "tags": "Post-apocalyptique,Science-Fiction",
     "link": "https://post-tenebras-lire.net/ebook-sf-mitania-de-bernard-afflatet/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-07-16-ebook-sf-mitania-de-bernard-afflatet.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-lusage-des-armes-de-iain-m",
     "title": "L’usage des Armes",
@@ -1681,7 +2557,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-sf-lusage-des-armes-de-iain-m/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-07-15-roman-sf-lusage-des-armes-de-iain-m.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/polar-sea-secte-and-sun-suivi-de",
     "title": "‘Sea, secte and sun’, ‘Harcèlement’ et ‘Voleurs !’",
@@ -1690,7 +2570,11 @@
     "tags": "Polar",
     "link": "https://post-tenebras-lire.net/polar-sea-secte-and-sun-suivi-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-06-20-polar-sea-secte-and-sun-suivi-de.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-le-roi-des-aulnes-de-michel",
     "title": "Le Roi des Aulnes",
@@ -1699,7 +2583,11 @@
     "tags": "Littérature",
     "link": "https://post-tenebras-lire.net/roman-le-roi-des-aulnes-de-michel/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-06-19-roman-le-roi-des-aulnes-de-michel.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-massacre-de-nankin-1937-le-crime",
     "title": "Le massacre de Nankin : 1937, le crime contre l’humanité de l’armée japonaise",
@@ -1708,7 +2596,11 @@
     "tags": "Japon,Chine,Histoire",
     "link": "https://post-tenebras-lire.net/le-massacre-de-nankin-1937-le-crime/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-06-13-le-massacre-de-nankin-1937-le-crime.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/toxic-stephane-desienne",
     "title": "Toxic Saison 1",
@@ -1717,7 +2609,11 @@
     "tags": "Post-apocalyptique,Série,Science-Fiction",
     "link": "https://post-tenebras-lire.net/toxic-stephane-desienne/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-06-11-toxic-stephane-desienne.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-lhomme-des-jeux-iain-m-banks",
     "title": "L’homme des jeux",
@@ -1726,7 +2622,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-sf-lhomme-des-jeux-iain-m-banks/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-06-02-roman-sf-lhomme-des-jeux-iain-m-banks.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/que-sais-jehistoire-de-geneve-puf",
     "title": "Que sais-je : Histoire de Genève",
@@ -1735,7 +2635,11 @@
     "tags": "Histoire,Suisse",
     "link": "https://post-tenebras-lire.net/que-sais-jehistoire-de-geneve-puf/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-05-27-que-sais-jehistoire-de-geneve-puf.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-post-apocalyptique-dun-homme",
     "title": "Traque, d’un homme à l’autre",
@@ -1744,7 +2648,11 @@
     "tags": "Post-apocalyptique",
     "link": "https://post-tenebras-lire.net/roman-post-apocalyptique-dun-homme/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-05-25-roman-post-apocalyptique-dun-homme.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-run-alexandre-jarry",
     "title": "[R.U.N]",
@@ -1753,7 +2661,11 @@
     "tags": "Science-Fiction,Polar",
     "link": "https://post-tenebras-lire.net/lecture-run-alexandre-jarry/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-05-23-lecture-run-alexandre-jarry.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/un-manga-succulent-le-gourmet-solitaire",
     "title": "Le gourmet solitaire",
@@ -1762,7 +2674,11 @@
     "tags": "Manga,Japon",
     "link": "https://post-tenebras-lire.net/un-manga-succulent-le-gourmet-solitaire/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-05-21-un-manga-succulent-le-gourmet-solitaire.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-sf-plasma-de-walter-jon-williams",
     "title": "Plasma",
@@ -1771,7 +2687,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/lecture-sf-plasma-de-walter-jon-williams/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-05-17-lecture-sf-plasma-de-walter-jon-williams.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/pays-de-neige-de-yasunari-kawabata",
     "title": "Pays de neige",
@@ -1780,7 +2700,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/pays-de-neige-de-yasunari-kawabata/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-05-07-pays-de-neige-de-yasunari-kawabata.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/un-bon-polar-japonais-le-devouement-du",
     "title": "Le Dévouement du suspect X",
@@ -1789,7 +2713,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/un-bon-polar-japonais-le-devouement-du/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-04-29-un-bon-polar-japonais-le-devouement-du.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-sf-jason-et-robur-saison-n1",
     "title": "Jason et Robur, Saison n°1",
@@ -1798,7 +2726,11 @@
     "tags": "Série,Science-Fiction",
     "link": "https://post-tenebras-lire.net/lecture-sf-jason-et-robur-saison-n1/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-04-22-lecture-sf-jason-et-robur-saison-n1.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/un-manga-temoignage-gen-dhiroshima-tome",
     "title": "Gen d’Hiroshima Tome 3",
@@ -1807,7 +2739,11 @@
     "tags": "Manga,Japon",
     "link": "https://post-tenebras-lire.net/un-manga-temoignage-gen-dhiroshima-tome/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-04-22-un-manga-temoignage-gen-dhiroshima-tome.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/la-maison-ou-je-suis-mort-autrefois",
     "title": "La maison où je suis mort autrefois",
@@ -1816,7 +2752,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/la-maison-ou-je-suis-mort-autrefois/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-03-28-la-maison-ou-je-suis-mort-autrefois.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-les-annales-du-disque-monde",
     "title": "Les Annales du Disque-Monde, Tome 11: Le Faucheur",
@@ -1825,7 +2765,11 @@
     "tags": "Fantasy",
     "link": "https://post-tenebras-lire.net/lecture-les-annales-du-disque-monde/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-03-21-lecture-les-annales-du-disque-monde.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/la-prophetie-de-labeille-keigo",
     "title": "La Prophétie de l’abeille",
@@ -1834,7 +2778,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/la-prophetie-de-labeille-keigo/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-03-15-la-prophetie-de-labeille-keigo.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-spin-tome-3-vortex-de-robert",
     "title": "Spin, Tome 3 : Vortex",
@@ -1843,7 +2791,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-sf-spin-tome-3-vortex-de-robert/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-03-09-roman-sf-spin-tome-3-vortex-de-robert.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-petites-experiences",
     "title": "Petites expériences scientifiques potentiellement catastrophiques !",
@@ -1852,7 +2804,11 @@
     "tags": "Science",
     "link": "https://post-tenebras-lire.net/lecture-petites-experiences/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-03-05-lecture-petites-experiences.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-axis-robert-charles-wilson",
     "title": "Axis",
@@ -1861,7 +2817,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-sf-axis-robert-charles-wilson/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-03-04-roman-sf-axis-robert-charles-wilson.gif"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/la-petite-fille-qui-aimait-tom-gordon",
     "title": "La petite fille qui aimait Tom Gordon",
@@ -1870,7 +2830,11 @@
     "tags": "Thriller",
     "link": "https://post-tenebras-lire.net/la-petite-fille-qui-aimait-tom-gordon/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-02-23-la-petite-fille-qui-aimait-tom-gordon.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/yokai-de-neil-jomunsi-projetbradbury",
     "title": "Yokai",
@@ -1879,7 +2843,11 @@
     "tags": "Nouvelle",
     "link": "https://post-tenebras-lire.net/yokai-de-neil-jomunsi-projetbradbury/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-02-03-yokai-de-neil-jomunsi-projetbradbury.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/aqua-jean-marc-ligny",
     "title": "Aqua™",
@@ -1888,7 +2856,11 @@
     "tags": "Post-apocalyptique",
     "link": "https://post-tenebras-lire.net/aqua-jean-marc-ligny/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-02-02-aqua-jean-marc-ligny.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/histoire-de-la-suisse-jean-jacques",
     "title": "Histoire de la Suisse - Que sais-je ?",
@@ -1897,16 +2869,24 @@
     "tags": "Histoire,Suisse",
     "link": "https://post-tenebras-lire.net/histoire-de-la-suisse-jean-jacques/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-01-18-histoire-de-la-suisse-jean-jacques.gif"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/simetierre-de-stephen-king",
     "title": "Simetierre",
     "writer": "King, Stephen",
     "date": "2014-01-12T00:00:00+01:00",
-    "tags": "Fantastique",
+    "tags": "Fantastique,Coup de cœur",
     "link": "https://post-tenebras-lire.net/simetierre-de-stephen-king/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-01-12-simetierre-de-stephen-king.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/chronique-dune-mort-annoncee-gabriel",
     "title": "Chronique d’une mort annoncée",
@@ -1915,7 +2895,11 @@
     "tags": "Littérature",
     "link": "https://post-tenebras-lire.net/chronique-dune-mort-annoncee-gabriel/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2014-01-09-chronique-dune-mort-annoncee-gabriel.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/zakuro-aki-shimazaki",
     "title": "Zakuro",
@@ -1924,7 +2908,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/zakuro-aki-shimazaki/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-12-22-zakuro-aki-shimazaki.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/monsieur-malaussene-de-daniel-pennac",
     "title": "Monsieur Malaussène",
@@ -1933,7 +2921,11 @@
     "tags": "Humour",
     "link": "https://post-tenebras-lire.net/monsieur-malaussene-de-daniel-pennac/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-12-20-monsieur-malaussene-de-daniel-pennac.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-vieil-homme-et-la-mer-hemingway",
     "title": "Le vieil homme et la mer",
@@ -1942,16 +2934,24 @@
     "tags": "Littérature",
     "link": "https://post-tenebras-lire.net/le-vieil-homme-et-la-mer-hemingway/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-12-10-le-vieil-homme-et-la-mer-hemingway.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/de-linegalite-parmi-les-societes-essai",
     "title": "De l’inégalité parmi les sociétés : Essai sur l’homme et l’environnement dans l’histoire",
     "writer": "Diamond, Jared Mason",
     "date": "2013-12-06T00:00:00+01:00",
-    "tags": "Histoire,Economie,Politique",
+    "tags": "Histoire,Economie,Politique,Coup de cœur",
     "link": "https://post-tenebras-lire.net/de-linegalite-parmi-les-societes-essai/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-12-06-de-linegalite-parmi-les-societes-essai.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-grand-livre-des-gnomes-terry",
     "title": "Le Grand Livre des gnomes",
@@ -1960,7 +2960,11 @@
     "tags": "Fantasy",
     "link": "https://post-tenebras-lire.net/le-grand-livre-des-gnomes-terry/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-11-26-le-grand-livre-des-gnomes-terry.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/harcelement-par-jean-baptiste-ferrero",
     "title": "Harcèlement",
@@ -1969,7 +2973,11 @@
     "tags": "Polar",
     "link": "https://post-tenebras-lire.net/harcelement-par-jean-baptiste-ferrero/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-11-14-harcelement-par-jean-baptiste-ferrero.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-samourai-virtuel-snow-crash-neal",
     "title": "Le Samourai Virtuel (Snow Crash)",
@@ -1978,7 +2986,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/le-samourai-virtuel-snow-crash-neal/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-11-12-le-samourai-virtuel-snow-crash-neal.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/la-salamandre-par-masuji-ibuse",
     "title": "La salamandre",
@@ -1987,7 +2999,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/la-salamandre-par-masuji-ibuse/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-10-28-la-salamandre-par-masuji-ibuse.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/en-meme-temps-toute-la-terre-et-tout-le",
     "title": "En même temps, toute la terre et tout le ciel",
@@ -1996,7 +3012,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/en-meme-temps-toute-la-terre-et-tout-le/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-10-20-en-meme-temps-toute-la-terre-et-tout-le.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-eltychev-de-roman-sentchine",
     "title": "Les Eltychev",
@@ -2005,7 +3025,11 @@
     "tags": "Russie",
     "link": "https://post-tenebras-lire.net/les-eltychev-de-roman-sentchine/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-10-12-les-eltychev-de-roman-sentchine.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/par-dela-locean-de-nicolas-b-wulf",
     "title": "Par-delà l’océan",
@@ -2014,7 +3038,11 @@
     "tags": "Fantastique",
     "link": "https://post-tenebras-lire.net/par-dela-locean-de-nicolas-b-wulf/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-10-08-par-dela-locean-de-nicolas-b-wulf.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/celsius-233-de-neil-jomunsi",
     "title": "Celsius 233",
@@ -2023,7 +3051,11 @@
     "tags": "Nouvelle",
     "link": "https://post-tenebras-lire.net/celsius-233-de-neil-jomunsi/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-10-04-celsius-233-de-neil-jomunsi.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/mourir-en-aout-de-jean-baptiste-ferrero_1",
     "title": "Mourir en août",
@@ -2032,7 +3064,11 @@
     "tags": "Polar",
     "link": "https://post-tenebras-lire.net/mourir-en-aout-de-jean-baptiste-ferrero_1/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-10-01-mourir-en-aout-de-jean-baptiste-ferrero_1.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/aurelia-sous-la-terre-de-neil-jomunsi",
     "title": "Aurélia sous la terre",
@@ -2041,7 +3077,11 @@
     "tags": "Nouvelle",
     "link": "https://post-tenebras-lire.net/aurelia-sous-la-terre-de-neil-jomunsi/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-09-27-aurelia-sous-la-terre-de-neil-jomunsi.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-grand-hozirus-de-neil-jomunsi",
     "title": "Le Grand-Hozirus",
@@ -2050,7 +3090,11 @@
     "tags": "Nouvelle",
     "link": "https://post-tenebras-lire.net/le-grand-hozirus-de-neil-jomunsi/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-09-20-le-grand-hozirus-de-neil-jomunsi.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/kukulkan-de-neil-jomunsi-projetbradbury",
     "title": "Kukulkán",
@@ -2059,7 +3103,11 @@
     "tags": "Fantastique,Nouvelle",
     "link": "https://post-tenebras-lire.net/kukulkan-de-neil-jomunsi-projetbradbury/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-09-13-kukulkan-de-neil-jomunsi-projetbradbury.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/nouvelles-japonaises-papillon-suivi-de",
     "title": "Nouvelles Japonaises : Papillon : Suivi de La lionne",
@@ -2068,7 +3116,11 @@
     "tags": "Japon,Nouvelle",
     "link": "https://post-tenebras-lire.net/nouvelles-japonaises-papillon-suivi-de/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-09-10-nouvelles-japonaises-papillon-suivi-de.jpeg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/the-christian-delusion-why-faith-fails",
     "title": "The Christian Delusion: Why Faith Fails",
@@ -2077,7 +3129,11 @@
     "tags": "Religion",
     "link": "https://post-tenebras-lire.net/the-christian-delusion-why-faith-fails/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-09-07-the-christian-delusion-why-faith-fails.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-dernier-invite-de-neil-jomunsi",
     "title": "Le dernier invité",
@@ -2086,7 +3142,11 @@
     "tags": "Nouvelle",
     "link": "https://post-tenebras-lire.net/le-dernier-invite-de-neil-jomunsi/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-09-06-le-dernier-invite-de-neil-jomunsi.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/onkalo-de-neil-jomunsi-projetbradbury",
     "title": "Onkalo",
@@ -2095,7 +3155,11 @@
     "tags": "Nouvelle,Science-Fiction",
     "link": "https://post-tenebras-lire.net/onkalo-de-neil-jomunsi-projetbradbury/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-08-30-onkalo-de-neil-jomunsi-projetbradbury.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/trois-coups-contre-ma-porte-michael",
     "title": "Trois coups contre ma porte",
@@ -2104,7 +3168,11 @@
     "tags": "Nouvelle",
     "link": "https://post-tenebras-lire.net/trois-coups-contre-ma-porte-michael/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-08-21-trois-coups-contre-ma-porte-michael.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/serie-enfer-et-en-os-jesus-contre",
     "title": "Série : Enfer et en os (Jésus contre Hitler n°4)",
@@ -2113,7 +3181,11 @@
     "tags": "Fantastique,Humour,Série",
     "link": "https://post-tenebras-lire.net/serie-enfer-et-en-os-jesus-contre/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-08-20-serie-enfer-et-en-os-jesus-contre.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/hackers-au-coeur-de-la-resistance",
     "title": "Hackers: Au coeur de la résistance numérique",
@@ -2122,7 +3194,11 @@
     "tags": "Numerique",
     "link": "https://post-tenebras-lire.net/hackers-au-coeur-de-la-resistance/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-08-17-hackers-au-coeur-de-la-resistance.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/mitsuba-par-aki-shimazaki-tres-beau",
     "title": "Mitsuba",
@@ -2131,7 +3207,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/mitsuba-par-aki-shimazaki-tres-beau/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-08-15-mitsuba-par-aki-shimazaki-tres-beau.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/chalk-une-excellente-serie-durban",
     "title": "Chalk",
@@ -2140,7 +3220,11 @@
     "tags": "Urban Fantasy",
     "link": "https://post-tenebras-lire.net/chalk-une-excellente-serie-durban/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-08-09-chalk-une-excellente-serie-durban.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-sumos-de-ryogoku-de-gilles-bordes",
     "title": "Les sumos de Ryôgoku",
@@ -2149,7 +3233,11 @@
     "tags": "Japon,Beau livre",
     "link": "https://post-tenebras-lire.net/les-sumos-de-ryogoku-de-gilles-bordes/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-08-07-les-sumos-de-ryogoku-de-gilles-bordes.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/court-avis-sur-les-zinzins-dolive-oueud",
     "title": "Les Annales du Disque-Monde, Tome 10 : Les Zinzins d’Olive-Oued",
@@ -2158,7 +3246,11 @@
     "tags": "Fantasy,Humour,Série",
     "link": "https://post-tenebras-lire.net/court-avis-sur-les-zinzins-dolive-oueud/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-08-01-court-avis-sur-les-zinzins-dolive-oueud.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/nouvelle-fantastique-melanie-au",
     "title": "Mélanie au Crépuscule",
@@ -2167,7 +3259,11 @@
     "tags": "Nouvelle,Fantastique",
     "link": "https://post-tenebras-lire.net/nouvelle-fantastique-melanie-au/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-08-01-nouvelle-fantastique-melanie-au.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/tokyo-sanpo-promenades-tokyo-de-florent",
     "title": "Tokyo Sanpo : Promenades à Tokyo",
@@ -2176,7 +3272,11 @@
     "tags": "Voyage,Japon,Beau livre",
     "link": "https://post-tenebras-lire.net/tokyo-sanpo-promenades-tokyo-de-florent/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-06-20-tokyo-sanpo-promenades-tokyo-de-florent.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/holocauste-de-christophe-siebert",
     "title": "Holocauste",
@@ -2185,7 +3285,11 @@
     "tags": "Post-apocalyptique",
     "link": "https://post-tenebras-lire.net/holocauste-de-christophe-siebert/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-06-13-holocauste-de-christophe-siebert.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/plongee-sur-rlyeh-loic-richard-un-roman",
     "title": "Plongée sur R’Lyeh - Un roman dont vous êtes le héros",
@@ -2194,7 +3298,11 @@
     "tags": "Fantastique,Livre Dont Vous Etes Le Héros",
     "link": "https://post-tenebras-lire.net/plongee-sur-rlyeh-loic-richard-un-roman/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-06-11-plongee-sur-rlyeh-loic-richard-un-roman.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-utopia-ahmed-khaled-towfik",
     "title": "Utopia",
@@ -2203,7 +3311,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-utopia-ahmed-khaled-towfik/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-06-08-roman-utopia-ahmed-khaled-towfik.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/la-laicite-par-guy-haarscher-aux-puf",
     "title": "La Laïcité",
@@ -2212,7 +3324,11 @@
     "tags": "Politique,Religion",
     "link": "https://post-tenebras-lire.net/la-laicite-par-guy-haarscher-aux-puf/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-05-30-la-laicite-par-guy-haarscher-aux-puf.gif"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/manga-doubt-1234",
     "title": "Doubt : 1,2,3,4",
@@ -2221,7 +3337,11 @@
     "tags": "Manga,Japon,Série",
     "link": "https://post-tenebras-lire.net/manga-doubt-1234/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-05-23-manga-doubt-1234.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/sf-ce-qui-mordait-le-ciel-de-serge",
     "title": "Ce qui mordait le ciel…",
@@ -2230,7 +3350,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/sf-ce-qui-mordait-le-ciel-de-serge/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-05-18-sf-ce-qui-mordait-le-ciel-de-serge.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-japon-vu-du-train-guide-de-voyage",
     "title": "Le Japon vu du train",
@@ -2239,7 +3363,11 @@
     "tags": "Voyage,Japon",
     "link": "https://post-tenebras-lire.net/le-japon-vu-du-train-guide-de-voyage/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-05-01-le-japon-vu-du-train-guide-de-voyage.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/manga-temoignage-santetsu-11-mars-2011",
     "title": "Santetsu : 11 mars 2011, après le cataclysme",
@@ -2248,7 +3376,11 @@
     "tags": "Manga,Japon",
     "link": "https://post-tenebras-lire.net/manga-temoignage-santetsu-11-mars-2011/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-04-27-manga-temoignage-santetsu-11-mars-2011.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-japonais-le-vase-de-sable-seicho",
     "title": "Le vase de sable",
@@ -2257,7 +3389,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/roman-japonais-le-vase-de-sable-seicho/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-04-26-roman-japonais-le-vase-de-sable-seicho.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/pour-mieux-comprendre-le-proche-orient",
     "title": "Pour mieux comprendre le Proche-Orient : Géopolitique du Proche-Orient « Que sais-je ? » n° 3678",
@@ -2266,7 +3402,11 @@
     "tags": "Politique,Géographie,Histoire",
     "link": "https://post-tenebras-lire.net/pour-mieux-comprendre-le-proche-orient/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-04-20-pour-mieux-comprendre-le-proche-orient.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/les-chronolithes-robert-charles-wilson",
     "title": "Les Chronolithes",
@@ -2275,7 +3415,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/les-chronolithes-robert-charles-wilson/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-04-12-les-chronolithes-robert-charles-wilson.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/policier-ikebukuro-west-gate-park-tome-2",
     "title": "Ikebukuro West Gate Park : Tome 2",
@@ -2284,7 +3428,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/policier-ikebukuro-west-gate-park-tome-2/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-04-02-policier-ikebukuro-west-gate-park-tome-2.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-chemin-du-retour-par-neil-jomunsi",
     "title": "Le chemin du retour",
@@ -2293,7 +3441,11 @@
     "tags": "Fantastique,Nouvelle",
     "link": "https://post-tenebras-lire.net/le-chemin-du-retour-par-neil-jomunsi/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-03-22-le-chemin-du-retour-par-neil-jomunsi.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/je-suis-rage-de-neil-jomunsi",
     "title": "Je suis Rage",
@@ -2302,7 +3454,11 @@
     "tags": "Fantastique",
     "link": "https://post-tenebras-lire.net/je-suis-rage-de-neil-jomunsi/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-03-14-je-suis-rage-de-neil-jomunsi.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-livre-du-de-kakuzo-okakura-avis-et",
     "title": "Le Livre du thé",
@@ -2311,7 +3467,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/le-livre-du-de-kakuzo-okakura-avis-et/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-03-10-le-livre-du-de-kakuzo-okakura-avis-et.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/le-silence-du-bourreau-francois-bizot",
     "title": "Le silence du bourreau",
@@ -2320,7 +3480,11 @@
     "tags": "Torture,Dictature,Procès",
     "link": "https://post-tenebras-lire.net/le-silence-du-bourreau-francois-bizot/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-02-27-le-silence-du-bourreau-francois-bizot.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lagneau-de-christopher-j-moore",
     "title": "L’agneau",
@@ -2329,7 +3493,11 @@
     "tags": "Religion,Humour",
     "link": "https://post-tenebras-lire.net/lagneau-de-christopher-j-moore/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-02-23-lagneau-de-christopher-j-moore.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/lecture-la-fee-carabine-daniel-pennac",
     "title": "La Fée Carabine",
@@ -2338,7 +3506,11 @@
     "tags": "Humour",
     "link": "https://post-tenebras-lire.net/lecture-la-fee-carabine-daniel-pennac/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2013-01-02-lecture-la-fee-carabine-daniel-pennac.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/fanstastique-la-melancolie-des-sirenes",
     "title": "La mélancolie des sirènes par 30 mètres de fond",
@@ -2347,7 +3519,11 @@
     "tags": "Fantastique",
     "link": "https://post-tenebras-lire.net/fanstastique-la-melancolie-des-sirenes/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-12-29-fanstastique-la-melancolie-des-sirenes.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-le-vieux-qui-ne-voulait-pas-feter",
     "title": "Le vieux qui ne voulait pas fêter son anniversaire",
@@ -2356,7 +3532,11 @@
     "tags": "Humour",
     "link": "https://post-tenebras-lire.net/roman-le-vieux-qui-ne-voulait-pas-feter/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-12-21-roman-le-vieux-qui-ne-voulait-pas-feter.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-heil-yeti-jesus-contre-hitler-3",
     "title": "Série : Heil Yéti! (Jésus contre Hitler n°3)",
@@ -2365,16 +3545,24 @@
     "tags": "Série,Science-Fiction,Humour",
     "link": "https://post-tenebras-lire.net/roman-heil-yeti-jesus-contre-hitler-3/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-12-10-roman-heil-yeti-jesus-contre-hitler-3.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-spin-robert-charles-wilson",
     "title": "Spin",
     "writer": "Wilson, Robert-Charles",
     "date": "2012-12-08T00:00:00+01:00",
-    "tags": "Science-Fiction",
+    "tags": "Science-Fiction,Coup de cœur",
     "link": "https://post-tenebras-lire.net/roman-sf-spin-robert-charles-wilson/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-12-08-roman-sf-spin-robert-charles-wilson.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-comme-alone-alone-1-de-thomas",
     "title": "A comme Alone (Alone, n°1)",
@@ -2383,7 +3571,11 @@
     "tags": "Post-apocalyptique,Science-Fiction,Série",
     "link": "https://post-tenebras-lire.net/roman-sf-comme-alone-alone-1-de-thomas/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-12-02-roman-sf-comme-alone-alone-1-de-thomas.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-la-route-de-cormac-mccarthy",
     "title": "La route",
@@ -2392,16 +3584,24 @@
     "tags": "Post-apocalyptique,Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-la-route-de-cormac-mccarthy/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-11-23-roman-la-route-de-cormac-mccarthy.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/misquoting-jesus-story-behind-who",
     "title": "Misquoting Jesus: The Story Behind Who Changed the Bible &amp;amp; Why",
     "writer": "Ehrman, Bart D.",
     "date": "2012-11-21T00:00:00+01:00",
-    "tags": "Religion",
+    "tags": "Religion,Coup de cœur",
     "link": "https://post-tenebras-lire.net/misquoting-jesus-story-behind-who/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-11-21-misquoting-jesus-story-behind-who.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-chroniques-du-pays-des-meres",
     "title": "Chroniques Du Pays Des Mères",
@@ -2410,7 +3610,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-sf-chroniques-du-pays-des-meres/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-11-11-roman-sf-chroniques-du-pays-des-meres.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-tsukushi-par-aki-shimazaki",
     "title": "Tsukushi",
@@ -2419,7 +3623,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/roman-tsukushi-par-aki-shimazaki/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-10-15-roman-tsukushi-par-aki-shimazaki.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/sf-tau-zero-de-poul-anderson",
     "title": "Tau Zéro",
@@ -2428,7 +3636,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/sf-tau-zero-de-poul-anderson/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-10-13-sf-tau-zero-de-poul-anderson.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/serie-tentacules-en-folie-jesus-contre",
     "title": "Série : Tentacules en Folie (Jésus contre Hitler #2)",
@@ -2437,7 +3649,11 @@
     "tags": "Science-Fiction,Série,Humour",
     "link": "https://post-tenebras-lire.net/serie-tentacules-en-folie-jesus-contre/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-10-11-serie-tentacules-en-folie-jesus-contre.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/serie-zombies-nazis-en-siberie-jesus",
     "title": "Série : Zombies Nazis en Sibérie (Jésus contre Hitler n°1)",
@@ -2446,7 +3662,11 @@
     "tags": "Science-Fiction,Série,Humour",
     "link": "https://post-tenebras-lire.net/serie-zombies-nazis-en-siberie-jesus/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-10-02-serie-zombies-nazis-en-siberie-jesus.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-sf-un-monde-dazur-de-jack-vance",
     "title": "Un monde d’azur",
@@ -2455,7 +3675,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/roman-sf-un-monde-dazur-de-jack-vance/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-10-01-roman-sf-un-monde-dazur-de-jack-vance.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/roman-park-life-yoshida-shuichi",
     "title": "Park Life - 吉田修",
@@ -2464,7 +3688,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/roman-park-life-yoshida-shuichi/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-09-28-roman-park-life-yoshida-shuichi.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-hideout",
     "title": "Hideout",
@@ -2473,7 +3701,11 @@
     "tags": "Manga,Japon",
     "link": "https://post-tenebras-lire.net/review-hideout/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-09-03-review-hideout.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-le-japon-vu-de-l",
     "title": "Le Japon vu de l’intérieur",
@@ -2482,7 +3714,11 @@
     "tags": "Japon,Photographie",
     "link": "https://post-tenebras-lire.net/review-le-japon-vu-de-l/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-08-28-review-le-japon-vu-de-l.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-la-tour-folkstrom",
     "title": "La Tour Folkstrom",
@@ -2491,7 +3727,11 @@
     "tags": "Fantastique",
     "link": "https://post-tenebras-lire.net/review-la-tour-folkstrom/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-08-22-review-la-tour-folkstrom.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-ikigami-preavis-de-mort-10",
     "title": "Ikigami, Préavis de Mort #10",
@@ -2500,7 +3740,11 @@
     "tags": "Manga,Japon",
     "link": "https://post-tenebras-lire.net/review-ikigami-preavis-de-mort-10/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-08-20-review-ikigami-preavis-de-mort-10.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-laffaire-sugaya",
     "title": "L’affaire Sugaya",
@@ -2509,7 +3753,11 @@
     "tags": "Manga,Japon",
     "link": "https://post-tenebras-lire.net/review-laffaire-sugaya/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-08-20-review-laffaire-sugaya.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-le-convoi-de-l",
     "title": "Le Convoi De L’eau",
@@ -2518,7 +3766,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/review-le-convoi-de-l/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-08-18-review-le-convoi-de-l.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-les-deportes-du-cambrien",
     "title": "Les déportés du Cambrien",
@@ -2527,7 +3779,11 @@
     "tags": "Science-Fiction",
     "link": "https://post-tenebras-lire.net/review-les-deportes-du-cambrien/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-07-27-review-les-deportes-du-cambrien.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-hi-my-name-is-loco-and-i-am",
     "title": "Hi! My Name is Loco and I am a Racist",
@@ -2536,7 +3792,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/review-hi-my-name-is-loco-and-i-am/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-07-25-review-hi-my-name-is-loco-and-i-am.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-aphorismes",
     "title": "Aphorismes",
@@ -2545,7 +3805,11 @@
     "tags": "Essai",
     "link": "https://post-tenebras-lire.net/review-aphorismes/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-06-10-review-aphorismes.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-tonbo",
     "title": "Tonbo",
@@ -2554,7 +3818,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/review-tonbo/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-06-08-review-tonbo.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-sex-and-japanese-sensual-side-of",
     "title": "Sex and the Japanese: The Sensual Side of Japan",
@@ -2563,7 +3831,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/review-sex-and-japanese-sensual-side-of/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-06-07-review-sex-and-japanese-sensual-side-of.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-au-pays-de-candy",
     "title": "Au pays de Candy",
@@ -2572,7 +3844,11 @@
     "tags": "Politique,Surveillance",
     "link": "https://post-tenebras-lire.net/review-au-pays-de-candy/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-06-01-review-au-pays-de-candy.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-teach-us-to-outgrow-our-madness",
     "title": "Dites-nous comment survivre à notre folie",
@@ -2581,16 +3857,24 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/review-teach-us-to-outgrow-our-madness/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-05-27-review-teach-us-to-outgrow-our-madness.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-des-fleurs-pour-algernon",
     "title": "Des fleurs pour Algernon",
     "writer": "Keyes, Daniel",
     "date": "2012-05-12T00:00:00+02:00",
-    "tags": "Science-Fiction",
+    "tags": "Science-Fiction,Coup de cœur",
     "link": "https://post-tenebras-lire.net/review-des-fleurs-pour-algernon/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-05-12-review-des-fleurs-pour-algernon.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-les-annees-douces-tome-2",
     "title": "Les années douces : Tome 2",
@@ -2599,7 +3883,11 @@
     "tags": "Japon,Manga",
     "link": "https://post-tenebras-lire.net/review-les-annees-douces-tome-2/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-05-12-review-les-annees-douces-tome-2.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-ikebukuro-west-gate-park",
     "title": "Ikebukuro West Gate Park",
@@ -2608,7 +3896,11 @@
     "tags": "Japon,Polar",
     "link": "https://post-tenebras-lire.net/review-ikebukuro-west-gate-park/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-05-03-review-ikebukuro-west-gate-park.png"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-1q84-livre-3-octobre-decembre",
     "title": "Roman : 1Q84, livre 3 Octobre-Décembre",
@@ -2617,7 +3909,11 @@
     "tags": "Japon",
     "link": "https://post-tenebras-lire.net/review-1q84-livre-3-octobre-decembre/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-04-29-review-1q84-livre-3-octobre-decembre.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-simon-cat-in-kitten-chaos",
     "title": "Simon’s Cat in Kitten Chaos",
@@ -2626,7 +3922,11 @@
     "tags": "Humour",
     "link": "https://post-tenebras-lire.net/review-simon-cat-in-kitten-chaos/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-04-26-review-simon-cat-in-kitten-chaos.jpg"
-  },
+  }
+
+,
+
+
   {
     "id": "https://post-tenebras-lire.net/review-chroniques-martiennes",
     "title": "Chroniques Martiennes",
@@ -2636,4 +3936,6 @@
     "link": "https://post-tenebras-lire.net/review-chroniques-martiennes/",
     "imageUrl": "https://post-tenebras-lire.net/assets/posts/2012-04-22-review-chroniques-martiennes.jpg"
   }
+
+
 ]
