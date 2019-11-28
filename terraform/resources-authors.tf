@@ -266,13 +266,68 @@ resource "aws_dynamodb_table_item" "Kloetzer-Laurent-L" {
 ITEM
 }
 
-resource "aws_dynamodb_table_item" "Launay-Mickaël" {
+resource "aws_dynamodb_table_item" "Launay-Mickael" {
   table_name = aws_dynamodb_table.authors-table.name
   hash_key = aws_dynamodb_table.authors-table.hash_key
   item = <<ITEM
 {
   "Author": {"S": "Launay, Mickaël"},
   "twitterHandle": {"S": "@mickaellaunay"}
+}
+ITEM
+}
+
+resource "aws_dynamodb_table_item" "Lucazeau-Romain" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Lucazeau, Romain"},
+  "twitterHandle": {"S": "@RomainLucazeau"}
+}
+ITEM
+}
+
+resource "aws_dynamodb_table_item" "Michaud-David" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Michaud, David"},
+  "twitterHandle": {"S": "@lejapon"}
+}
+ITEM
+}
+
+resource "aws_dynamodb_table_item" "Paquet-Olivier" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Paquet, Olivier"},
+  "twitterHandle": {"S": "@Erion_"}
+}
+ITEM
+}
+
+resource "aws_dynamodb_table_item" "Poupee-Karyn" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Poupée, Karyn"},
+  "twitterHandle": {"S": "@karyn_nishi"}
+}
+ITEM
+}
+
+resource "aws_dynamodb_table_item" "Sun-Sozuka" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Sun-Sozuka"},
+  "twitterHandle": {"S": "@SozukaSun"}
 }
 ITEM
 }
