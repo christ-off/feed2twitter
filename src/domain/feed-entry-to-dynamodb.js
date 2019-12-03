@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * This function extract tags (but NOT the first one and make tags out of them
@@ -6,16 +6,16 @@
  * @return string tags separated by comma
  */
 function extractTags(entry) {
-    if (!entry || !entry.category || !Array.isArray(entry.category)) {
-        return null;
-    } else {
-        let result = [];
-        for (let i = 1; i < entry.category.length; i++) {
-            let categoryText = entry.category[i].$.term;
-            result.push(categoryText);
-        }
-        return result.join(', ');
+  if (!entry || !entry.category || !Array.isArray(entry.category)) {
+    return null;
+  } else {
+    let result = [];
+    for (let i = 1; i < entry.category.length; i++) {
+      let categoryText = entry.category[i].$.term;
+      result.push(categoryText);
     }
+    return result.join(", ");
+  }
 }
 
 /**
@@ -24,11 +24,11 @@ function extractTags(entry) {
  * @return null|string
  */
 function extractTitle(entry) {
-    if (!entry) {
-        return null;
-    } else {
-        return entry.title[0]._;
-    }
+  if (!entry) {
+    return null;
+  } else {
+    return entry.title[0]._;
+  }
 }
 
 /**
@@ -37,35 +37,35 @@ function extractTitle(entry) {
  * @return null|string
  */
 function extractWriter(entry) {
-    if (!entry) {
-        return null;
-    } else {
-        return entry.category[0].$.term;
-    }
+  if (!entry) {
+    return null;
+  } else {
+    return entry.category[0].$.term;
+  }
 }
 
 function extractLink(entry) {
-    if (!entry) {
-        return null;
-    } else {
-        return entry.link[0].$.href;
-    }
+  if (!entry) {
+    return null;
+  } else {
+    return entry.link[0].$.href;
+  }
 }
 
 function extractId(entry) {
-    if (!entry) {
-        return null;
-    } else {
-        return entry.id[0];
-    }
+  if (!entry) {
+    return null;
+  } else {
+    return entry.id[0];
+  }
 }
 
 function extractImageUrl(entry) {
-    if (!entry) {
-        return null;
-    } else {
-        return entry["media:thumbnail"][0].$.url;
-    }
+  if (!entry) {
+    return null;
+  } else {
+    return entry["media:thumbnail"][0].$.url;
+  }
 }
 
 /**
@@ -73,18 +73,18 @@ function extractImageUrl(entry) {
  * @param entry
  * @return {{imageUrl: null, id: null, writer: *, tag: *, title: *}}
  */
-exports.feedEntryToDynamoDb = (entry) => {
-    return {
-        Item: {
-            "Id": {S: extractId(entry) },
-            "title": {S: extractTitle(entry) },
-            "writer": {S:  extractWriter(entry) },
-            "date": {S: entry.published[0]},
-            "tags": {S: extractTags(entry) },
-            "link": {S: extractLink(entry)},
-            "imageUrl": {S: extractImageUrl(entry) }
-        },
-        ReturnConsumedCapacity: "TOTAL",
-            TableName: 'Feed'
-    }
+exports.feedEntryToDynamoDb = entry => {
+  return {
+    Item: {
+      Id: { S: extractId(entry) },
+      title: { S: extractTitle(entry) },
+      writer: { S: extractWriter(entry) },
+      date: { S: entry.published[0] },
+      tags: { S: extractTags(entry) },
+      link: { S: extractLink(entry) },
+      imageUrl: { S: extractImageUrl(entry) }
+    },
+    ReturnConsumedCapacity: "TOTAL",
+    TableName: "Feed"
+  };
 };

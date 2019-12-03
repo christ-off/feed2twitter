@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A nodeJS Lambda to parse a feed and post a random entry to twitter",
   "scripts": {
+    "prettier": "prettier --check 'src/**/*.js'",
     "test": "jest --silent",
     "test-with-logs": "jest",
     "test-with-coverage": "jest --coverage --silent"
@@ -30,7 +31,8 @@
     "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
     "jest": "^24.9.0",
-    "nock": "^11.7.0"
+    "nock": "^11.7.0",
+    "prettier": "1.19.1"
   },
   "dependencies": {
     "audit": "0.0.6",

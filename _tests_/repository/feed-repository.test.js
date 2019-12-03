@@ -45,17 +45,17 @@ describe('Test all feature of Feed repository', () => {
         let result = await tested.loadEmbeddedItems();
         // THEN
         expect(result).toBeDefined();
-        expect(result).toEqual(293);
-        expect(aws.putItemPromise.mock.calls.length).toBe(293);
+        expect(result).toEqual(303);
+        expect(aws.putItemPromise.mock.calls.length).toBe(303);
         expect(aws.putItemPromise.mock.calls[0][0]).toEqual({
                 Item: {
-                    "Id": {S: "https://post-tenebras-lire.net/metamaus-art-spiegelman"},
-                    "title": {S: "MetaMaus" },
-                    "writer": {S:  "Spiegelman, Art"},
-                    "date": {S: "2019-10-03T00:00:00+02:00"},
-                    "tags": {S: "BD,Histoire"},
-                    "link": {S: "https://post-tenebras-lire.net/metamaus-art-spiegelman/"},
-                    "imageUrl": {S: "https://post-tenebras-lire.net/assets/posts/2019-10-03-metamaus-art-spiegelman.jpg"}
+                    "Id": {S: "https://post-tenebras-lire.net/Sur-Mars_Arnauld-Pontier"},
+                    "title": {S: "Sur Mars"},
+                    "writer": {S: "Pontier, Arnauld"},
+                    "date": {S: "2019-11-24T00:00:00+01:00"},
+                    "tags": {S: "Science-Fiction"},
+                    "link": {S: "https://post-tenebras-lire.net/Sur-Mars_Arnauld-Pontier/"},
+                    "imageUrl": {S: "https://post-tenebras-lire.net/assets/posts_640/2019-11-24-Sur-Mars_Arnauld-Pontier.jpg"}
                 },
                 ReturnConsumedCapacity: "TOTAL",
                 TableName: 'Feed'
@@ -97,7 +97,7 @@ describe('Test all feature of Feed repository', () => {
         expect(result).toEqual("https://post-tenebras-lire.net/fake-same-url");
         expect(aws.scanPromise.mock.calls.length).toBe(1);
         expect(aws.scanPromise.mock.calls[0][0]).toEqual({
-                TableName:  "Feed",
+                TableName: "Feed",
                 ProjectionExpression: "Id"
             }
         );
@@ -144,7 +144,7 @@ describe('Test all feature of Feed repository', () => {
         expect(result).toBeDefined();
         expect(result).toEqual(
             {
-                date: "2017-01-04T00:00:00+01:00" ,
+                date: "2017-01-04T00:00:00+01:00",
                 imageUrl: "https://post-tenebras-lire.net/assets/posts/2017-01-04-lecture-bad-science-de-ben-goldacre.jpg",
                 writer: "Goldacre, Ben",
                 link: "https://post-tenebras-lire.net/lecture-bad-science-de-ben-goldacre/",

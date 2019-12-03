@@ -1,11 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  * This module is made to provides AWS components
  * It hides their construction
  */
 
-const AWS = require('aws-sdk/index');
+const AWS = require("aws-sdk/index");
 
 exports.dynamoDb = new AWS.DynamoDB();
 
@@ -14,7 +14,7 @@ exports.dynamoDb = new AWS.DynamoDB();
  * @param params
  * @returns {Request<DocumentClient.ScanOutput, AWSError>}
  */
-exports.queryPromise = async (params) => {
+exports.queryPromise = async params => {
   return exports.dynamoDb.query(params).promise();
 };
 
@@ -23,7 +23,7 @@ exports.queryPromise = async (params) => {
  * @param params
  * @returns {Request<DocumentClient.ScanOutput, AWSError>}
  */
-exports.putItemPromise = async (params) => {
+exports.putItemPromise = async params => {
   return exports.dynamoDb.putItem(params).promise();
 };
 
@@ -32,6 +32,6 @@ exports.putItemPromise = async (params) => {
  * @param params
  * @returns {Request<DocumentClient.ScanOutput, AWSError>}
  */
-exports.scanPromise = async (params) => {
+exports.scanPromise = async params => {
   return exports.dynamoDb.scan(params).promise();
 };
