@@ -331,3 +331,15 @@ resource "aws_dynamodb_table_item" "Sun-Sozuka" {
 }
 ITEM
 }
+
+resource "aws_dynamodb_table_item" "Teyssandier-Nicolas" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Teyssandier, Nicolas"},
+  "twitterHandle": {"S": "@teyssand31"}
+}
+ITEM
+}
+
