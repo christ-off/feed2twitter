@@ -27,19 +27,19 @@
   },
   "homepage": "https://github.com/christ-off/feed2twitter#readme",
   "devDependencies": {
-    "aws-sdk": "^2.589.0",
+    "aws-sdk": "^2.655.0",
     "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
-    "jest": "^24.9.0",
-    "nock": "^11.7.0",
-    "prettier": "1.19.1"
+    "jest": "^25.2.7",
+    "nock": "^12.0.3",
+    "prettier": "2.0.4"
   },
   "dependencies": {
     "audit": "0.0.6",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "test": "^0.6.0",
     "twit": "^2.2.11",
-    "xml2js": "^0.4.22"
+    "xml2js": "^0.4.23"
   }
 }
