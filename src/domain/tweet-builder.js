@@ -1,19 +1,16 @@
 "use strict";
 
 const twitterAuthor = require("./get-author-twitter-handle");
+const tagify = require("./tagify");
 const LIMIT = 280;
 const PREFIX = "Ancien avis de #Lecture : ";
 const SEPARATOR = " - ";
-
-function tagify(category) {
-  return "#" + category.replace("-", "");
-}
 
 function extractTags(tagstring) {
   let result = "";
   let tags = tagstring.split(",");
   for (let i = 0; i < tags.length; i++) {
-    result = result + " " + tagify(tags[i].trim());
+    result = result + " " + tagify.tagify(tags[i].trim());
   }
   return result;
 }

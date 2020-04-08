@@ -45,8 +45,8 @@ describe('Test all feature of Feed repository', () => {
         let result = await tested.loadEmbeddedItems();
         // THEN
         expect(result).toBeDefined();
-        expect(result).toEqual(297);
-        expect(aws.putItemPromise.mock.calls.length).toBe(297);
+        expect(result).toEqual(308);
+        expect(aws.putItemPromise.mock.calls.length).toBe(308);
         expect(aws.putItemPromise.mock.calls[0][0]).toEqual({
                 Item: {
                     "Id": {S: "https://post-tenebras-lire.net/Sur-Mars_Arnauld-Pontier"},
