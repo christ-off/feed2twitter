@@ -80,7 +80,7 @@ resource "aws_cloudwatch_event_rule" "every_day-rule" {
   name = "every_day"
   depends_on = [ aws_lambda_function.feed2twitter-function ]
   is_enabled = true
-  schedule_expression = "cron(07 05 ? * MON,WED,THU,SUN *)"
+  schedule_expression = "cron(08 05 ? * MON,WED,THU,SUN *)"
 }
 
 resource "aws_cloudwatch_event_target" "every_day_1111-target" {

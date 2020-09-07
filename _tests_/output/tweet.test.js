@@ -18,7 +18,8 @@ const INFO = {
 describe('Testing posting', () => {
 
     beforeAll(() => {
-        dotenv.config();
+        // use dotenv.config(); to load "real" env config
+        dotenv.config({ path: '.envtest' });
         tested.config();
     });
 

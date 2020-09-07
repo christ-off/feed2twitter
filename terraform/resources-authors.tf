@@ -343,3 +343,49 @@ resource "aws_dynamodb_table_item" "Teyssandier-Nicolas" {
 ITEM
 }
 
+resource "aws_dynamodb_table_item" "Lacombe-Benjamin" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Lacombe, Benjamin"},
+  "twitterHandle": {"S": "@BENLACOMBE"}
+}
+ITEM
+}
+
+resource "aws_dynamodb_table_item" "DiGenova-Angelo" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Di Genova, Angelo"},
+  "twitterHandle": {"S": "@horizonsdujapon"}
+}
+ITEM
+}
+
+resource "aws_dynamodb_table_item" "Ingrao-Christian" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Ingrao, Christian"},
+  "twitterHandle": {"S": "@gragratraina"}
+}
+ITEM
+}
+
+resource "aws_dynamodb_table_item" "Jomunsi-Neil" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Jomunsi, Neil"},
+  "twitterHandle": {"S": "@story_nerd"}
+}
+ITEM
+}
+
+
+

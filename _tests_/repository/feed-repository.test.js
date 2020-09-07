@@ -49,13 +49,13 @@ describe('Test all feature of Feed repository', () => {
         expect(aws.putItemPromise.mock.calls.length).toBe(308);
         expect(aws.putItemPromise.mock.calls[0][0]).toEqual({
                 Item: {
-                    "Id": {S: "https://post-tenebras-lire.net/Sur-Mars_Arnauld-Pontier"},
-                    "title": {S: "Sur Mars"},
-                    "writer": {S: "Pontier, Arnauld"},
-                    "date": {S: "2019-11-24T00:00:00+01:00"},
-                    "tags": {S: "Science-Fiction"},
-                    "link": {S: "https://post-tenebras-lire.net/Sur-Mars_Arnauld-Pontier/"},
-                    "imageUrl": {S: "https://post-tenebras-lire.net/assets/posts_640/2019-11-24-Sur-Mars_Arnauld-Pontier.jpg"}
+                    "Id": {S: "https://post-tenebras-lire.net/libres-obeir-management-nazisme-johann-chapoutot"},
+                    "title": {S: "Libres d’obéir : Le management, du nazisme à aujourd’hui"},
+                    "writer": {S: "Chapoutot, Johann"},
+                    "date": {S: "2020-03-28T00:00:00+01:00"},
+                    "tags": {S: "Histoire"},
+                    "link": {S: "https://post-tenebras-lire.net/libres-obeir-management-nazisme-johann-chapoutot/"},
+                    "imageUrl": {S: "https://post-tenebras-lire.net/assets/posts_640/2020-03-28-libres-obeir-management-nazisme-johann-chapoutot.jpg"}
                 },
                 ReturnConsumedCapacity: "TOTAL",
                 TableName: 'Feed'
