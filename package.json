@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/christ-off/feed2twitter#readme",
   "devDependencies": {
-    "aws-sdk": "^2.804.0",
+    "aws-sdk": "^2.817.0",
     "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
     "jest": "^26.6.3",
