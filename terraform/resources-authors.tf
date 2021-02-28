@@ -397,3 +397,14 @@ resource "aws_dynamodb_table_item" "Meow-Jordi" {
 }
 ITEM
 }
+
+resource "aws_dynamodb_table_item" "Jean-Claude-Dunyach" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Dunyach, Jean-Claude"},
+  "twitterHandle": {"S": "@Closter31"}
+}
+ITEM
+}
