@@ -45,17 +45,17 @@ describe('Test all feature of Feed repository', () => {
         let result = await tested.loadEmbeddedItems();
         // THEN
         expect(result).toBeDefined();
-        expect(result).toEqual(357);
-        expect(aws.putItemPromise.mock.calls.length).toBe(357);
+        expect(result).toEqual(395);
+        expect(aws.putItemPromise.mock.calls.length).toBe(395);
         expect(aws.putItemPromise.mock.calls[0][0]).toEqual({
                 Item: {
-                    "Id": {S: "https://post-tenebras-lire.net/peripheriques-william-gibson" },
-                    "title": {S: "Périphériques" },
-                    "writer": {S: "Gibson, William" },
-                    "date": {S: "2021-02-28T00:00:00+01:00" },
-                    "tags": {S: "Science-Fiction" },
-                    "link": {S: "https://post-tenebras-lire.net/peripheriques-william-gibson/" },
-                    "imageUrl": {S: "https://post-tenebras-lire.net/assets/posts_640/2021-02-28-peripheriques-william-gibson.jpg" }
+                    "Id": {S: "https://post-tenebras-lire.net/pingouin-andrei-kourkov" },
+                    "title": {S: "Le Pingouin" },
+                    "writer": {S: "Kourkov, Andreï" },
+                    "date": {S: "2021-11-16T00:00:00+01:00" },
+                    "tags": {S: "Ukraine" },
+                    "link": {S: "https://post-tenebras-lire.net/pingouin-andrei-kourkov/" },
+                    "imageUrl": {S: "https://post-tenebras-lire.net/assets/posts_640/2021-11-16-pingouin-andrei-kourkov.webp" }
                 },
                 ReturnConsumedCapacity: "TOTAL",
                 TableName: 'Feed'
@@ -114,7 +114,7 @@ describe('Test all feature of Feed repository', () => {
                             "S": "2017-01-04T00:00:00+01:00"
                         },
                         "imageUrl": {
-                            "S": "https://post-tenebras-lire.net/assets/posts/2017-01-04-lecture-bad-science-de-ben-goldacre.jpg"
+                            "S": "https://post-tenebras-lire.net/assets/posts/2017-01-04-lecture-bad-science-de-ben-goldacre.webp"
                         },
                         "writer": {
                             "S": "Goldacre, Ben"
@@ -145,7 +145,7 @@ describe('Test all feature of Feed repository', () => {
         expect(result).toEqual(
             {
                 date: "2017-01-04T00:00:00+01:00",
-                imageUrl: "https://post-tenebras-lire.net/assets/posts/2017-01-04-lecture-bad-science-de-ben-goldacre.jpg",
+                imageUrl: "https://post-tenebras-lire.net/assets/posts/2017-01-04-lecture-bad-science-de-ben-goldacre.webp",
                 writer: "Goldacre, Ben",
                 link: "https://post-tenebras-lire.net/lecture-bad-science-de-ben-goldacre/",
                 Id: "https://post-tenebras-lire.net/lecture-bad-science-de-ben-goldacre",

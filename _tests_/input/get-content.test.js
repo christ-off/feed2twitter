@@ -25,11 +25,11 @@ describe('Testing getting feed with HTTP ', () => {
   test('Get should return the expected Buffer for binary', async () => {
     expect.assertions(2);
     // GIVEN
-    let imageContent = fs.readFileSync('_tests_/test_image.jpg');
+    let imageContent = fs.readFileSync('_tests_/test_image.webp');
     nock("http://perdu.com").get('/').reply(200, imageContent);
     // WHEN
     let data = await tested.getBinaryContent("http://perdu.com", "/");
-    // THEN
+    // THEN![](../test_image.webp)
     expect(data).toBeDefined();
     expect(data instanceof Buffer).toBeTruthy();
   });

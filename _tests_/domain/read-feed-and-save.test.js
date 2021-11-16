@@ -36,7 +36,7 @@ describe('Test information extraction from entry', () => {
                     "date": {S: "2019-09-07T00:00:00+02:00"},
                     "tags": {S: "Nouvelle, Science-fiction, Religion"},
                     "link": {S: "http://localhost:4000/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne/"},
-                    "imageUrl": {S: "http://localhost:4000/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.jpg"}
+                    "imageUrl": {S: "http://localhost:4000/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.webp"}
                 },
                 ReturnConsumedCapacity: "TOTAL",
                 TableName: 'Feed'

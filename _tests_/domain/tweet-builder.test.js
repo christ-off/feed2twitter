@@ -10,12 +10,12 @@ const COMPLEX_INFO = {
     writer: 'Desienne, Stéphane',
     tags: "Nouvelle, Science-Fiction, Religion",
     link: 'https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne/',
-    imageUrl: 'https://post-tenebras-lire.net/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.jpg'
+    imageUrl: 'https://post-tenebras-lire.net/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.webp'
 };
 
 const SIMPLE_INFO = {
     date: "2017-01-04T00:00:00+01:00",
-    imageUrl: "https://post-tenebras-lire.net/assets/posts/2017-01-04-lecture-bad-science-de-ben-goldacre.jpg",
+    imageUrl: "https://post-tenebras-lire.net/assets/posts/2017-01-04-lecture-bad-science-de-ben-goldacre.webp",
     writer: "Goldacre, Ben",
     link: "https://post-tenebras-lire.net/lecture-bad-science-de-ben-goldacre/",
     Id: "https://post-tenebras-lire.net/lecture-bad-science-de-ben-goldacre",

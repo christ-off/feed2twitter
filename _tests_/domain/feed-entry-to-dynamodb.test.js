@@ -61,7 +61,7 @@ const ENTRY = {
         {
             "$": {
                 "xmlns:media": "http://search.yahoo.com/mrss/",
-                "url": "https://post-tenebras-lire.net/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.jpg"
+                "url": "https://post-tenebras-lire.net/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.webp"
             }
         }
     ]
@@ -83,7 +83,7 @@ describe('Test information extraction from entry', () => {
                     "date": {S: "2019-09-07T00:00:00+02:00"},
                     "tags": {S: "Nouvelle, Science-Fiction, Religion"},
                     "link": {S: "https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne/"},
-                    "imageUrl": {S: "https://post-tenebras-lire.net/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.jpg"}
+                    "imageUrl": {S: "https://post-tenebras-lire.net/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.webp"}
                 },
                 ReturnConsumedCapacity: "TOTAL",
                 TableName: 'Feed'

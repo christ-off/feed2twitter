@@ -142,7 +142,7 @@ describe('Testing processing of feed', () => {
               {
                 "$": {
                   "xmlns:media": "http://search.yahoo.com/mrss/",
-                  "url": "http://localhost:4000/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.jpg"
+                  "url": "http://localhost:4000/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.webp"
                 }
               }
             ]
@@ -220,7 +220,7 @@ describe('Testing processing of feed', () => {
               {
                 "$": {
                   "xmlns:media": "http://search.yahoo.com/mrss/",
-                  "url": "http://localhost:4000/2019-09-06-Le-Jugement-de-J%C3%A9hovah-James-Morrow.jpg"
+                  "url": "http://localhost:4000/2019-09-06-Le-Jugement-de-J%C3%A9hovah-James-Morrow.webp"
                 }
               }
             ]
@@ -293,7 +293,7 @@ describe('Testing processing of feed', () => {
               {
                 "$": {
                   "xmlns:media": "http://search.yahoo.com/mrss/",
-                  "url": "http://localhost:4000/2019-08-26-Le-livre-jaune-Michael-Roch.jpg"
+                  "url": "http://localhost:4000/2019-08-26-Le-livre-jaune-Michael-Roch.webp"
                 }
               }
             ]
@@ -366,7 +366,7 @@ describe('Testing processing of feed', () => {
               {
                 "$": {
                   "xmlns:media": "http://search.yahoo.com/mrss/",
-                  "url": "http://localhost:4000/2019-08-25-La-fille-de-la-sup%C3%A9rette-Sayaka-Murata.jpg"
+                  "url": "http://localhost:4000/2019-08-25-La-fille-de-la-sup%C3%A9rette-Sayaka-Murata.webp"
                 }
               }
             ]
@@ -527,7 +527,7 @@ describe('Testing processing of feed', () => {
               {
                 "$": {
                   "xmlns:media": "http://search.yahoo.com/mrss/",
-                  "url": "http://localhost:4000/2019-08-19-Les-annales-du-Disque-Monde-Le-r%C3%A9giment-monstrueux.jpg"
+                  "url": "http://localhost:4000/2019-08-19-Les-annales-du-Disque-Monde-Le-r%C3%A9giment-monstrueux.webp"
                 }
               }
             ]
@@ -600,7 +600,7 @@ describe('Testing processing of feed', () => {
               {
                 "$": {
                   "xmlns:media": "http://search.yahoo.com/mrss/",
-                  "url": "http://localhost:4000/2019-08-12-Androm%C3%A8de_Voyager_Tome_3_stephanne_desienne.jpg"
+                  "url": "http://localhost:4000/2019-08-12-Androm%C3%A8de_Voyager_Tome_3_stephanne_desienne.webp"
                 }
               }
             ]
@@ -673,7 +673,7 @@ describe('Testing processing of feed', () => {
               {
                 "$": {
                   "xmlns:media": "http://search.yahoo.com/mrss/",
-                  "url": "http://localhost:4000/2019-08-11-Confins_Voyager_Tome%202_stephanne_desienne.jpg"
+                  "url": "http://localhost:4000/2019-08-11-Confins_Voyager_Tome%202_stephanne_desienne.webp"
                 }
               }
             ]
@@ -746,7 +746,7 @@ describe('Testing processing of feed', () => {
               {
                 "$": {
                   "xmlns:media": "http://search.yahoo.com/mrss/",
-                  "url": "http://localhost:4000/2019-08-07-La_mort_immortelle_Cixin_Liu.jpg"
+                  "url": "http://localhost:4000/2019-08-07-La_mort_immortelle_Cixin_Liu.webp"
                 }
               }
             ]
@@ -824,7 +824,7 @@ describe('Testing processing of feed', () => {
               {
                 "$": {
                   "xmlns:media": "http://search.yahoo.com/mrss/",
-                  "url": "http://localhost:4000/2019-07-31-L_histoire_du_Qu%C3%A9bec_en_30_secondes_Jean-Pierre_Charland.jpg"
+                  "url": "http://localhost:4000/2019-07-31-L_histoire_du_Qu%C3%A9bec_en_30_secondes_Jean-Pierre_Charland.webp"
                 }
               }
             ]
