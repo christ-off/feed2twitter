@@ -408,3 +408,25 @@ resource "aws_dynamodb_table_item" "Jean-Claude-Dunyach" {
 }
 ITEM
 }
+
+resource "aws_dynamodb_table_item" "Etienne-Klein" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Klein, Etienne"},
+  "twitterHandle": {"S": "@EtienneKlein"}
+}
+ITEM
+}
+
+resource "aws_dynamodb_table_item" "Stephane-Mazevet" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Stephane Mazevet"},
+  "twitterHandle": {"S": "@SMazevet"}
+}
+ITEM
+}
