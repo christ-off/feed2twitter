@@ -31,7 +31,7 @@
     "dotenv": "^16.0.0",
     "fs": "0.0.1-security",
     "jest": "^27.4.7",
-    "nock": "^13.2.2",
+    "nock": "^13.2.4",
     "prettier": "2.5.1"
   },
   "dependencies": {
