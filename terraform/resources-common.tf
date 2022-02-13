@@ -5,7 +5,7 @@
 ## We require AWS > 2.40.0 to support NodeJS 12
 terraform {
   required_providers {
-    aws = ">= 2.40.0"
+    aws = ">= 4.00.0"
   }
 }
 
@@ -21,6 +21,5 @@ provider "aws" {
 
 resource "aws_s3_bucket" "feed2twitter-bucket" {
   bucket = "feed2twitter-christoff.net"
-  acl = "private"
   force_destroy = "true"
 }

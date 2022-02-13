@@ -11,10 +11,10 @@
     <packaging>pom</packaging>
 
     <properties>
-        <frontend-maven-plugin-version>1.8.0</frontend-maven-plugin-version>
-        <node-version>v14.15.1</node-version>
-        <maven-assembly-plugin-version>3.1.1</maven-assembly-plugin-version>
-        <tf-maven-version>0.6</tf-maven-version>
+        <frontend-maven-plugin-version>1.12.1</frontend-maven-plugin-version>
+        <node-version>v16.14.0</node-version>
+        <maven-assembly-plugin-version>3.3.0</maven-assembly-plugin-version>
+        <tf-maven-version>0.13.32</tf-maven-version>
     </properties>
 
     <!-- Build Settings -->
@@ -36,7 +36,7 @@
                         <phase>generate-resources</phase>
                     </execution>
                     <execution>
-                        <id>npm test --silent</id>
+                        <id>npm run test --silent</id>
                         <goals>
                             <goal>npm</goal>
                         </goals>

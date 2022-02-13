@@ -2,7 +2,7 @@
 #  LAMBDA
 ############
 
-resource "aws_s3_bucket_object" "feed2twitter_lambda-storage" {
+resource "aws_s3_object" "feed2twitter_lambda-storage" {
   key = "feed2twitter-lambda"
   bucket = aws_s3_bucket.feed2twitter-bucket.id
   source = "../target/feed2twitter-lambda.zip"
@@ -16,7 +16,7 @@ resource "aws_lambda_function" "feed2twitter-function" {
   function_name = "feed2twitter-lambda"
   description = "Triggered by Schedule read feed and post"
   s3_bucket = aws_s3_bucket.feed2twitter-bucket.bucket
-  s3_key = aws_s3_bucket_object.feed2twitter_lambda-storage.key
+  s3_key = aws_s3_object.feed2twitter_lambda-storage.key
   runtime = "nodejs12.x"
   handler = "src/handlers/process-atom-feed.processAtomFeed"
 
