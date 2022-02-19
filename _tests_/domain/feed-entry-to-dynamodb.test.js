@@ -82,8 +82,7 @@ describe('Test information extraction from entry', () => {
                     "writer": {S:  "Desienne, Stéphane"},
                     "date": {S: "2019-09-07T00:00:00+02:00"},
                     "tags": {S: "Nouvelle, Science-Fiction, Religion"},
-                    "link": {S: "https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne/"},
-                    "imageUrl": {S: "https://post-tenebras-lire.net/2019-09-07-H%C3%A9r%C3%A9sie%20min%C3%A9rale%20St%C3%A9phane%20Desienne.webp"}
+                    "link": {S: "https://post-tenebras-lire.net/H%C3%A9r%C3%A9sie-min%C3%A9rale-St%C3%A9phane-Desienne/"}
                 },
                 ReturnConsumedCapacity: "TOTAL",
                 TableName: 'Feed'

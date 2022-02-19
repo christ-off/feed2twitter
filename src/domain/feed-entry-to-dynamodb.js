@@ -60,18 +60,10 @@ function extractId(entry) {
   }
 }
 
-function extractImageUrl(entry) {
-  if (!entry) {
-    return null;
-  } else {
-    return entry["media:thumbnail"][0].$.url;
-  }
-}
-
 /**
  * Return the stripped down structure to be used to post tweet
  * @param entry
- * @return {{imageUrl: null, id: null, writer: *, tag: *, title: *}}
+ * @return {id: null, writer: *, tag: *, title: *}}
  */
 exports.feedEntryToDynamoDb = entry => {
   return {
@@ -82,7 +74,6 @@ exports.feedEntryToDynamoDb = entry => {
       date: { S: entry.published[0] },
       tags: { S: extractTags(entry) },
       link: { S: extractLink(entry) },
-      imageUrl: { S: extractImageUrl(entry) }
     },
     ReturnConsumedCapacity: "TOTAL",
     TableName: "Feed"

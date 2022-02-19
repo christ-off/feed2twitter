@@ -17,7 +17,7 @@ resource "aws_lambda_function" "feed2twitter-function" {
   description = "Triggered by Schedule read feed and post"
   s3_bucket = aws_s3_bucket.feed2twitter-bucket.bucket
   s3_key = aws_s3_object.feed2twitter_lambda-storage.key
-  runtime = "nodejs12.x"
+  runtime = "nodejs14.x"
   handler = "src/handlers/process-atom-feed.processAtomFeed"
 
   role = aws_iam_role.feed2twitter-role.arn

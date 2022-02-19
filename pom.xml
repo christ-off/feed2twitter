@@ -10,6 +10,14 @@
     <version>999-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Central</name>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+    </repositories>
+
     <properties>
         <frontend-maven-plugin-version>1.12.1</frontend-maven-plugin-version>
         <node-version>v16.14.0</node-version>
@@ -64,6 +72,7 @@
 
             <!-- Create a lambda zip package -->
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>${maven-assembly-plugin-version}</version>
                 <configuration>

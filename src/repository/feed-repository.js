@@ -43,7 +43,6 @@ module.exports.loadEmbeddedItems = async () => {
         date: { S: item.date },
         tags: { S: item.tags },
         link: { S: item.link },
-        imageUrl: { S: item.imageUrl }
       },
       ReturnConsumedCapacity: "TOTAL",
       TableName: FEED_TABLE_NAME
@@ -93,7 +92,6 @@ module.exports.getItem = async Id => {
     } else {
       return {
         date: result.Items[0].date.S,
-        imageUrl: result.Items[0].imageUrl.S,
         writer: result.Items[0].writer.S,
         link: result.Items[0].link.S,
         Id: result.Items[0].Id.S,
