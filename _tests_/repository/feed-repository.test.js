@@ -45,16 +45,16 @@ describe('Test all feature of Feed repository', () => {
         let result = await tested.loadEmbeddedItems();
         // THEN
         expect(result).toBeDefined();
-        expect(result).toEqual(395);
-        expect(aws.putItemPromise.mock.calls.length).toBe(395);
+        expect(result).toEqual(406);
+        expect(aws.putItemPromise.mock.calls.length).toBe(406);
         expect(aws.putItemPromise.mock.calls[0][0]).toEqual({
                 Item: {
-                    "Id": {S: "https://post-tenebras-lire.net/pingouin-andrei-kourkov" },
-                    "title": {S: "Le Pingouin" },
-                    "writer": {S: "Kourkov, Andreï" },
-                    "date": {S: "2021-11-16T00:00:00+01:00" },
-                    "tags": {S: "Ukraine" },
-                    "link": {S: "https://post-tenebras-lire.net/pingouin-andrei-kourkov/" }
+                    "Id": {S: "https://post-tenebras-lire.net/tracts-34-zemmour-contre-histoire" },
+                    "title": {S: "Tracts, n°34 : Zemmour contre l’histoire" },
+                    "writer": {S: "Revue Tracts" },
+                    "date": {S: "2022-02-15T00:00:00+00:00" },
+                    "tags": {S: "Histoire,Politique,eBook Sans DRM" },
+                    "link": {S: "https://post-tenebras-lire.net/tracts-34-zemmour-contre-histoire/" }
                 },
                 ReturnConsumedCapacity: "TOTAL",
                 TableName: 'Feed'
