@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * This module is made to provides AWS components
+ * This module is made to provide AWS components
  * It hides their construction
  */
 
