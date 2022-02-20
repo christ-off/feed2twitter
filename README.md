@@ -2,7 +2,8 @@
 
 A nodeJS Lambda to parse a feed and post a random entry to twitter.  
 
-[![CodeQL](https://github.com/christ-off/feed2twitter/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/christ-off/feed2twitter/actions/workflows/codeql-analysis.yml)
+[![CodeQL](https://github.com/christ-off/feed2twitter/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/christ-off/feed2twitter/actions/workflows/codeql-analysis.yml) 
+[![Node.js CI](https://github.com/christ-off/feed2twitter/actions/workflows/node.js.yml/badge.svg)](https://github.com/christ-off/feed2twitter/actions/workflows/node.js.yml)
 
 ## Steps
 
