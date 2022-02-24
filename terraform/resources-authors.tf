@@ -414,8 +414,20 @@ resource "aws_dynamodb_table_item" "Stephane-Mazevet" {
   hash_key = aws_dynamodb_table.authors-table.hash_key
   item = <<ITEM
 {
-  "Author": {"S": "Stephane Mazevet"},
+  "Author": {"S": "Mazevet, Stéphane"},
   "twitterHandle": {"S": "@SMazevet"}
 }
 ITEM
 }
+
+resource "aws_dynamodb_table_item" "Cecile-Asanuma-Brice" {
+  table_name = aws_dynamodb_table.authors-table.name
+  hash_key = aws_dynamodb_table.authors-table.hash_key
+  item = <<ITEM
+{
+  "Author": {"S": "Asanuma-Brice, Cécile"},
+  "twitterHandle": {"S": "@celbrice"}
+}
+ITEM
+}
+
