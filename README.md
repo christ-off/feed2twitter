@@ -5,20 +5,6 @@ A nodeJS Lambda to parse a feed and post a random entry to twitter.
 [![CodeQL](https://github.com/christ-off/feed2twitter/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/christ-off/feed2twitter/actions/workflows/codeql-analysis.yml) 
 [![Node.js CI](https://github.com/christ-off/feed2twitter/actions/workflows/node.js.yml/badge.svg)](https://github.com/christ-off/feed2twitter/actions/workflows/node.js.yml)
 
-## Steps
-
-1. ~~MVP : Read feed (so last 10 posts) and posts random post to twitter~~
-2. ~~Add tags from post~~
-3. ~~Post with picture~~ 
-4. ~~Save to dynamoDB (to add more history), Read from dynamoDB~~
-5. ~~(optionnal) Add current blog history to DynamoDB~~
-6. ~~Get writer (may need to add to feed before)~~
-7. ~~Transform know writer into their twitter account (DynamoDB table for mapping ?)~~
-8. Enrich feed from blog with editor info ?
-9. Get editor and post using their twitter handler
-10. Random text before tweet 
-11. Use terraform env to deploy multiple lambdas and tables 
-
 ## Requirements
 
 * Maven >3 [use SDKMan the super hero](https://sdkman.io/)
